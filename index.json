@@ -60,6 +60,7 @@
     "@elizaos-plugins/plugin-image-generation": "github:elizaos-plugins/plugin-image-generation",
     "@elizaos-plugins/plugin-intiface": "github:elizaos-plugins/plugin-intiface",
     "@elizaos-plugins/plugin-irys": "github:elizaos-plugins/plugin-irys",
+    "@elizaos-plugins/plugin-isaacx": "github:isaacx0/plugin-isaacx",
     "@elizaos-plugins/plugin-lensNetwork": "github:elizaos-plugins/plugin-lensNetwork",
     "@elizaos-plugins/plugin-letzai": "github:elizaos-plugins/plugin-letzai",
     "@elizaos-plugins/plugin-lightlink": "github:lightlink-network/plugin-lightlink",
