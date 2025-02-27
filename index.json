@@ -47,6 +47,7 @@
     "@elizaos-plugins/plugin-ferePro": "github:elizaos-plugins/plugin-ferePro",
     "@elizaos-plugins/plugin-firecrawl": "github:tobySolutions/plugin-firecrawl",
     "@elizaos-plugins/plugin-flow": "github:fixes-world/plugin-flow",
+    "@elizaos-plugins/plugin-flow-advanced": "github:fixes-world/plugin-flow-advanced",
     "@elizaos-plugins/plugin-fuel": "github:elizaos-plugins/plugin-fuel",
     "@elizaos-plugins/plugin-genlayer": "github:elizaos-plugins/plugin-genlayer",
     "@elizaos-plugins/plugin-gigbot": "github:PaymagicXYZ/plugin-gigbot",
