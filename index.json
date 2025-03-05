@@ -35,6 +35,7 @@
     "@elizaos-plugins/plugin-coingecko": "github:elizaos-plugins/plugin-coingecko",
     "@elizaos-plugins/plugin-coinmarketcap": "github:elizaos-plugins/plugin-coinmarketcap",
     "@elizaos-plugins/plugin-compass": "github:CompassLabs/plugin-compass",
+    "@elizaos-plugins/plugin-computer-use": "github:amit0365/plugin-computer-use",
     "@elizaos-plugins/plugin-conflux": "github:elizaos-plugins/plugin-conflux",
     "@elizaos-plugins/plugin-cosmos": "github:elizaos-plugins/plugin-cosmos",
     "@elizaos-plugins/plugin-cronoszkevm": "github:elizaos-plugins/plugin-cronoszkevm",
