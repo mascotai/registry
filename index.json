@@ -48,6 +48,7 @@
     "@elizaos-plugins/plugin-edwin": "github:elizaos-plugins/plugin-edwin",
     "@elizaos-plugins/plugin-enso": "github:EnsoBuild/plugin-enso",
     "@elizaos-plugins/plugin-evm": "github:elizaos-plugins/plugin-evm",
+    "@elizaos-plugins/plugin-executor": "github:t3rn/plugin-t3rn-executor",
     "@elizaos-plugins/plugin-ferePro": "github:elizaos-plugins/plugin-ferePro",
     "@elizaos-plugins/plugin-firecrawl": "github:tobySolutions/plugin-firecrawl",
     "@elizaos-plugins/plugin-flow": "github:fixes-world/plugin-flow",
