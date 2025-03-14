@@ -33,6 +33,7 @@
     "@elizaos-plugins/plugin-bnv-me-id": "github:elizaos-plugins/plugin-bnv-me-id",
     "@elizaos-plugins/plugin-binance": "github:elizaos-plugins/plugin-binance",
     "@elizaos-plugins/plugin-ccxt": "github:pranavjadhav1363/plugin-ccxt",
+    "@elizaos-plugins/plugin-clara-twitter": "github:warp-contracts/plugin-clara-twitter",
     "@elizaos-plugins/plugin-coinbase": "github:elizaos-plugins/plugin-coinbase",
     "@elizaos-plugins/plugin-coingecko": "github:elizaos-plugins/plugin-coingecko",
     "@elizaos-plugins/plugin-coinmarketcap": "github:elizaos-plugins/plugin-coinmarketcap",
