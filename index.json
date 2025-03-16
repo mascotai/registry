@@ -81,6 +81,7 @@
   "@elizaos-plugins/plugin-near": "github:elizaos-plugins/plugin-near",
   "@elizaos-plugins/plugin-nft-generation": "github:elizaos-plugins/plugin-nft-generation",
   "@elizaos-plugins/plugin-node": "github:elizaos-plugins/plugin-node",
+  "elizaos-plugins/plugin-notion": "github:tskoyo/plugin-notion",
   "@elizaos-plugins/plugin-nkn": "github:nknorg/eliza-plugin-nkn",
   "@elizaos-plugins/plugin-obsidian": "github:elizaos-plugins/plugin-obsidian",
   "@elizaos-plugins/plugin-okto": "github:okto-hq/eliza-plugin",
@@ -122,6 +123,5 @@
   "@elizaos-plugins/plugin-zksync-era": "github:elizaos-plugins/plugin-zksync-era",
   "@elizaos-plugins/plugin-para": "github:aipop-fun/plugin-para",
   "@elizaos-plugins/plugin-mbd-farcaster": "github:developerfred/mbd-farcaster",
-  "@elizaos-plugins/plugin-sonic": "github:thopatevijay/plugin-sonic",
-  "elizaos-plugins/plugin-notion": "github:tskoyo/plugin-notion"
+  "@elizaos-plugins/plugin-sonic": "github:thopatevijay/plugin-sonic"
 }
