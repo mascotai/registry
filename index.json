@@ -45,6 +45,7 @@
     "@elizaos-plugins/plugin-d.a.t.a": "github:carv-protocol/plugin-d.a.t.a",
     "@elizaos-plugins/plugin-dcap": "github:elizaos-plugins/plugin-dcap",
     "@elizaos-plugins/plugin-depin": "github:elizaos-plugins/plugin-depin",
+    "@elizaos-plugins/plugin-dexpaprika": "github:donbagger/plugin-dexpaprika",
     "@elizaos-plugins/plugin-di": "github:fixes-world/plugin-di",
     "@elizaos-plugins/plugin-echochambers": "github:elizaos-plugins/plugin-echochambers",
     "@elizaos-plugins/plugin-edwin": "github:elizaos-plugins/plugin-edwin",
