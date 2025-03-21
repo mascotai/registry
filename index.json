@@ -103,6 +103,7 @@
     "@elizaos-plugins/plugin-spheron": "github:elizaos-plugins/plugin-spheron",
     "@elizaos-plugins/plugin-stargaze": "github:elizaos-plugins/plugin-stargaze",
     "@elizaos-plugins/plugin-starknet": "github:elizaos-plugins/plugin-starknet",
+    "@elizaos-plugins/plugin-storacha": "github:storacha/elizaos-plugin",
     "@elizaos-plugins/plugin-story": "github:elizaos-plugins/plugin-story",
     "@elizaos-plugins/plugin-sui": "github:elizaos-plugins/plugin-sui",
     "@elizaos-plugins/plugin-tee": "github:elizaos-plugins/plugin-tee",
