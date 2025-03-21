@@ -30,7 +30,7 @@
     "@elizaos-plugins/plugin-autonome": "github:elizaos-plugins/plugin-autonome",
     "@elizaos-plugins/plugin-avail": "github:elizaos-plugins/plugin-avail",
     "@elizaos-plugins/plugin-avalanche": "github:elizaos-plugins/plugin-avalanche",
-    "@elizaos-plugins/plugin-bnv-me-id": "github:elizaos-plugins/plugin-bnv-me-id",
+    "@elizaos-plugins/plugin-bnv-me-id": "github:brand-new-vision/plugin-bnv-me-id",
     "@elizaos-plugins/plugin-binance": "github:elizaos-plugins/plugin-binance",
     "@elizaos-plugins/plugin-ccxt": "github:pranavjadhav1363/plugin-ccxt",
     "@elizaos-plugins/plugin-clara-twitter": "github:warp-contracts/plugin-clara-twitter",
