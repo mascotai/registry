@@ -127,4 +127,5 @@
     "@elizaos-plugins/plugin-para": "github:aipop-fun/plugin-para",
     "@elizaos-plugins/plugin-mbd-farcaster": "github:developerfred/mbd-farcaster",
     "@elizaos-plugins/plugin-sonic": "github:thopatevijay/plugin-sonic"
+    "@elizaos-plugins/plugin-iexec": "github:iExecBlockchainComputing/plugin-iexec"
 }
