@@ -66,6 +66,7 @@
     "@elizaos-plugins/plugin-grix": "github:grixprotocol/plugin-grix",
     "@elizaos-plugins/plugin-hyperliquid": "github:elizaos-plugins/plugin-hyperliquid",
     "@elizaos-plugins/plugin-icp": "github:elizaos-plugins/plugin-icp",
+    "@elizaos-plugins/plugin-iexec": "github:iExecBlockchainComputing/plugin-iexec"
     "@elizaos-plugins/plugin-image-generation": "github:elizaos-plugins/plugin-image-generation",
     "@elizaos-plugins/plugin-intiface": "github:elizaos-plugins/plugin-intiface",
     "@elizaos-plugins/plugin-irys": "github:elizaos-plugins/plugin-irys",
@@ -127,5 +128,4 @@
     "@elizaos-plugins/plugin-para": "github:aipop-fun/plugin-para",
     "@elizaos-plugins/plugin-mbd-farcaster": "github:developerfred/mbd-farcaster",
     "@elizaos-plugins/plugin-sonic": "github:thopatevijay/plugin-sonic"
-    "@elizaos-plugins/plugin-iexec": "github:iExecBlockchainComputing/plugin-iexec"
 }
