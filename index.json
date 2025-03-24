@@ -122,6 +122,7 @@
     "@elizaos-plugins/plugin-whatsapp": "github:elizaos-plugins/plugin-whatsapp",
     "@elizaos-plugins/plugin-youtube-to-text": "github:wellaios/plugin-youtube-to-text",
     "@elizaos-plugins/plugin-zapper": "github:ben-dh3/plugin-zapper",
+    "@elizaos-plugins/plugin-xdc": "github:15august/plugin-xdc",
     "@elizaos-plugins/plugin-zerion": "github:elizaos-plugins/plugin-zerion",
     "@elizaos-plugins/plugin-zksync-era": "github:elizaos-plugins/plugin-zksync-era",
     "@elizaos-plugins/plugin-para": "github:aipop-fun/plugin-para",
