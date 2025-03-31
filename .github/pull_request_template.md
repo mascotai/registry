@@ -1,7 +1,7 @@
 # Registry Update Checklist
 
 Registry:
-- [ ] I've made the organization @eliza-plugins
+- [ ] I've made the organization @eliza-plugins (left side of the colon of JSON entry in index.json)
 - [ ] I've used github not github.com
 - [ ] There is no .git extension
 - [ ] It's placed it alphabetically in the list
