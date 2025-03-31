@@ -66,6 +66,7 @@
     "@elizaos-plugins/plugin-goat": "github:elizaos-plugins/plugin-goat",
     "@elizaos-plugins/plugin-goplus": "github:elizaos-plugins/plugin-goplus",
     "@elizaos-plugins/plugin-grix": "github:grixprotocol/plugin-grix",
+    "@elizaos-plugins/plugin-hedera": "github:com/hedera-dev/plugin-hedera",
     "@elizaos-plugins/plugin-hyperliquid": "github:elizaos-plugins/plugin-hyperliquid",
     "@elizaos-plugins/plugin-icp": "github:elizaos-plugins/plugin-icp",
     "@elizaos-plugins/plugin-iexec": "github:iExecBlockchainComputing/plugin-iexec",
