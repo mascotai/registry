@@ -104,6 +104,7 @@
     "@elizaos-plugins/plugin-primus": "github:elizaos-plugins/plugin-primus",
     "@elizaos-plugins/plugin-quai": "github:elizaos-plugins/plugin-quai",
     "@elizaos-plugins/plugin-rabbi-trader": "github:elizaos-plugins/plugin-rabbi-trader",
+    "@elizaos-plugins/plugin-raiinmaker": "github:Coiin-Blockchain/plugin-raiinmaker",
     "@elizaos-plugins/plugin-recall": "github:recallnet/plugin-recall",
     "@elizaos-plugins/plugin-rss3": "github:rss3-network/elizaos-plugin-rss3",
     "@elizaos-plugins/plugin-sei": "github:elizaos-plugins/plugin-sei",
