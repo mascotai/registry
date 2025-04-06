@@ -31,6 +31,7 @@
     "@elizaos-plugins/plugin-avail": "github:elizaos-plugins/plugin-avail",
     "@elizaos-plugins/plugin-avalanche": "github:elizaos-plugins/plugin-avalanche",
     "@elizaos-plugins/plugin-binance": "github:elizaos-plugins/plugin-binance",
+    "@elizaos-plugins/plugin-bioagent": "github:bio-xyz/plugin-bioagent",
     "@elizaos-plugins/plugin-bnb": "github:elizaos-plugins/plugin-bnb",
     "@elizaos-plugins/plugin-bnv-me-id": "github:brand-new-vision/plugin-bnv-me-id",
     "@elizaos-plugins/plugin-ccxt": "github:pranavjadhav1363/plugin-ccxt",
