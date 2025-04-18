@@ -83,6 +83,7 @@
     "@elizaos-plugins/plugin-lightlink": "github:lightlink-network/plugin-lightlink",
     "@elizaos-plugins/plugin-massa": "github:elizaos-plugins/plugin-massa",
     "@elizaos-plugins/plugin-mbd-farcaster": "github:developerfred/mbd-farcaster",
+    "@elizaos-plugins/client-xmtp": "github:ephemeraHQ/client-xmtp",
     "@elizaos-plugins/plugin-mcp": "github:fleek-platform/eliza-plugin-mcp",
     "@elizaos-plugins/plugin-membase": "github:unibaseio/plugin-membase",
     "@elizaos-plugins/plugin-merkle": "github:merkle-trade/merkle-eliza-plugin",
