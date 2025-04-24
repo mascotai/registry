@@ -7,8 +7,8 @@
         "clients": ["twitter", "discord", "telegram"],
         "modelProviders": ["openai", "anthropic", "local-ai", "ollama"],
         "brains": ["bootstrap"],
-        "swarms": ["the-org"],
-      },
+        "swarms": ["the-org"]
+      }
     },
     "@elizaos-plugins/adapter-mongodb": "github:elizaos-plugins/adapter-mongodb",
     "@elizaos-plugins/adapter-pglite": "github:elizaos-plugins/adapter-pglite",
