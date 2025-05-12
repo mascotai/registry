@@ -1,10 +1,12 @@
 {
-    "": "official/sql, twitter, discord, telegram, openai, anthropic, local-ai, ollama, bootstrap, the-org",
+    "": "official/sql, twitter, discord, telegram, bootstrap",
     "": "classes.adapters/sql",
     "": "classes.clients/twitter, discord, telegram",
-    "": "classes.modelProdivers/openai, anthropic, local-ai, ollama",
-    "": "classes.responders/bootstrap",
-    "": "classes.swarms/the-org",
+    "": "classes.default/bootstrap",
+    "@elizaos-plugins/plugin-openai": "github:elizaos-plugins/plugin-openai",
+    "@elizaos-plugins/plugin-anthropic": "github:elizaos-plugins/plugin-anthropic",
+    "@elizaos-plugins/plugin-local-ai": "github:elizaos-plugins/plugin-local-ai",
+    "@elizaos-plugins/plugin-ollama": "github:elizaos-plugins/plugin-ollama",
     "@elizaos-plugins/adapter-mongodb": "github:elizaos-plugins/adapter-mongodb",
     "@elizaos-plugins/adapter-pglite": "github:elizaos-plugins/adapter-pglite",
     "@elizaos-plugins/adapter-postgres": "github:elizaos-plugins/adapter-postgres",
@@ -94,6 +96,7 @@
     "@elizaos-plugins/plugin-membase": "github:unibaseio/plugin-membase",
     "@elizaos-plugins/plugin-merkle": "github:merkle-trade/merkle-eliza-plugin",
     "@elizaos-plugins/plugin-messari-ai-toolkit": "github:messari/plugin-messari-ai-toolkit",
+    "@elizaos-plugins/plugin-morpheus": "github:bowtiedbluefin/plugin-morpheus",
     "@elizaos-plugins/plugin-movement": "github:elizaos-plugins/plugin-movement",
     "@elizaos-plugins/plugin-multichain": "github:near-agent/elizaos-plugin-multichain",
     "@elizaos-plugins/plugin-multiversx": "github:elizaos-plugins/plugin-multiversx",
@@ -112,6 +115,7 @@
     "@elizaos-plugins/plugin-para": "github:aipop-fun/plugin-para",
     "@elizaos-plugins/plugin-payai": "github:notorious-d-e-v/plugin-payai",
     "@elizaos-plugins/plugin-primus": "github:elizaos-plugins/plugin-primus",
+    "@elizaos-plugins/plugin-proof-of-agent": "github:automata-network/elizaos-plugin-proof-of-agent",
     "@elizaos-plugins/plugin-quai": "github:elizaos-plugins/plugin-quai",
     "@elizaos-plugins/plugin-rabbi-trader": "github:elizaos-plugins/plugin-rabbi-trader",
     "@elizaos-plugins/plugin-raiinmaker": "github:Coiin-Blockchain/plugin-raiinmaker",
@@ -151,5 +155,6 @@
     "@elizaos-plugins/plugin-zerion": "github:elizaos-plugins/plugin-zerion",
     "@elizaos-plugins/plugin-zksync-era": "github:elizaos-plugins/plugin-zksync-era",
     "@elizaos-plugins/plugin-zytron": "github:zypher-network/plugin-zytron",
-    "@elizaos-plugins/plugin-bink": "github:Bink-AI/elizaos-plugin-binkai"
+    "@elizaos-plugins/plugin-bink": "github:Bink-AI/elizaos-plugin-binkai",
+    "@elizaos-plugins/plugin-bitquery": "github:ChuXo/plugin-bitquery"
 }
