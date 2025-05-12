@@ -2,7 +2,7 @@
     "": "official/sql, twitter, discord, telegram, openai, anthropic, local-ai, ollama, bootstrap, the-org",
     "": "classes.adapters/sql",
     "": "classes.clients/twitter, discord, telegram",
-    "": "classes.modelProdivers/openai, anthropic, local-ai, ollama",
+    "": "classes.modelProviders/openai, anthropic, local-ai, ollama",
     "": "classes.responders/bootstrap",
     "": "classes.swarms/the-org",
     "@elizaos-plugins/adapter-mongodb": "github:elizaos-plugins/adapter-mongodb",
