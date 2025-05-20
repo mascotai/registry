@@ -156,5 +156,6 @@
     "@elizaos-plugins/plugin-zksync-era": "github:elizaos-plugins/plugin-zksync-era",
     "@elizaos-plugins/plugin-zytron": "github:zypher-network/plugin-zytron",
     "@elizaos-plugins/plugin-bink": "github:Bink-AI/elizaos-plugin-binkai",
-    "@elizaos-plugins/plugin-bitquery": "github:ChuXo/plugin-bitquery"
+    "@elizaos-plugins/plugin-bitquery": "github:ChuXo/plugin-bitquery",
+    "@elizaos-plugins/plugin-pundiai-dataset": "github:PundiAI/plugin-pundiai-dataset"
 }
