@@ -4,7 +4,7 @@
 
 
 ## Intro
-Eliza now supports dynamic plugin loading directly from the package registry.
+elizaOS supports dynamic plugin loading directly from the package registry.
 
 
 ### Available Plugins
@@ -12,16 +12,16 @@ Eliza now supports dynamic plugin loading directly from the package registry.
 All official plugins are hosted at [github.com/elizaos-plugins](https://github.com/elizaos-plugins/). Currently available plugins include:
 
 - [@elizaos/plugin-solana](https://github.com/elizaos-plugins/plugin-solana) - Solana blockchain integration
-- [@elizaos/client-discord](https://github.com/elizaos-plugins/client-discord) - Discord bot integration
-- [@elizaos/client-twitter](https://github.com/elizaos-plugins/client-twitter) - Twitter bot integration
+- [@elizaos/plugin-discord](https://github.com/elizaos-plugins/plugin-discord) - Discord bot integration
+- [@elizaos/plugin-twitter](https://github.com/elizaos-plugins/plugin-twitter) - Twitter bot integration
 - [@elizaos/plugin-whatsapp](https://github.com/elizaos-plugins/plugin-whatsapp) - WhatsApp integration
 - [@elizaos/plugin-browser](https://github.com/elizaos-plugins/plugin-browser) - Web scraping capabilities
 - [@elizaos/plugin-pdf](https://github.com/elizaos-plugins/plugin-pdf) - PDF processing
 - [@elizaos/plugin-image](https://github.com/elizaos-plugins/plugin-image) - Image processing and analysis
 - [@elizaos/plugin-video](https://github.com/elizaos-plugins/plugin-video) - Video processing capabilities
-- [@elizaos/plugin-llama](https://github.com/elizaos-plugins/plugin-llama) - Local LLaMA model integration
+- [@elizaos/plugin-local-ai](https://github.com/elizaos-plugins/plugin-local-ai) - Local LLaMA model integration
 
-Visit the our [Registry Hub](hhttps://eliza-plugins-hub.vercel.app/)
+Visit the our [Registry Hub](https://eliza.how/packages)
 
 ### Adding Plugins on eliza
 1. **package.json:**
@@ -49,17 +49,46 @@ Visit the our [Registry Hub](hhttps://eliza-plugins-hub.vercel.app/)
 
 ### Plugin Development
 
-Eliza uses a unified plugin architecture where everything is a plugin - including clients, adapters, actions, evaluators, and services. This approach ensures consistent behavior and better extensibility. Here's how the architecture works:
+elizaOS uses a unified plugin architecture where everything is a plugin - including clients, adapters, actions, evaluators, and services. This approach ensures consistent behavior and better extensibility. Here's how the architecture works:
 
 1. **Plugin Types**: Each plugin can provide one or more of the following:
    - Clients (e.g., Discord, Twitter, WhatsApp integrations)
    - Adapters (e.g., database adapters, caching systems)
-   - Actions (custom functionality)
-   - Evaluators (decision-making components)
-   - Services (background processes)
-   - Providers (data or functionality providers)
+   - Bootstrap (e.g., how the bot responds to events)
+   - Model Providers (e.g., OpenAI-compatible, local-ai, ollama, etc)
 
 2. **Plugin Interface**: All plugins implement the core Plugin interface:
+   1.x (https://github.com/elizaOS/plugin-specification/blob/f800a4340e95123838c594528fa26ddff7ec9ecd/core-plugin-v2/src/types.ts#L569)
+   ```typescript
+   type Plugin = {
+       name: string;
+       description: string;
+       init?: (config: Record<string, string>, runtime: IAgentRuntime) => Promise<void>;
+       config?: { [key: string]: any };
+       services?: Service[];
+       componentTypes?: {
+         name: string;
+         schema: Record<string, unknown>;
+         validator?: (data: any) => boolean;
+       }[];
+       actions?: Action[];
+       providers?: Provider[];
+       evaluators?: Evaluator[];
+       adapter?: IDatabaseAdapter;
+       models?: {
+         [key: string]: (...args: any[]) => Promise<any>;
+       };
+       events?: {
+         [K in keyof EventPayloadMap]?: EventHandler<K>[];
+       } & {
+         [key: string]: ((params: EventPayload) => Promise<any>)[];
+       };
+       routes?: Route[];
+       tests?: TestSuite[];
+   };
+   ```
+
+   0.x (https://github.com/elizaOS/plugin-specification/blob/f800a4340e95123838c594528fa26ddff7ec9ecd/core-plugin-v1/src/types.ts#L664)
    ```typescript
    type Plugin = {
        name: string;
@@ -74,13 +103,13 @@ Eliza uses a unified plugin architecture where everything is a plugin - includin
    };
    ```
 
-3. **Independent Repositories**: Each plugin lives in its own repository under the [elizaos-plugins](https://github.com/elizaos-plugins/) organization, allowing:
+4. **Independent Repositories**: Each plugin lives in its own repository, allowing:
    - Independent versioning and releases
    - Focused issue tracking and documentation
    - Easier maintenance and contribution
    - Separate CI/CD pipelines
 
-4. **Plugin Structure**: Each plugin repository should follow this structure:
+5. **Plugin Structure**: Each plugin repository should follow this structure:
    ```
    plugin-name/
    ├── images/
@@ -97,7 +126,7 @@ Eliza uses a unified plugin architecture where everything is a plugin - includin
    └── README.md          # Plugin documentation
    ```
 
-5. **Package Configuration**: Your plugin's `package.json` must include an `agentConfig` section:
+6. **Package Configuration**: Your plugin's `package.json` must include an `agentConfig` section:
    ```json
    {
      "name": "@elizaos/plugin-example",
@@ -114,14 +143,15 @@ Eliza uses a unified plugin architecture where everything is a plugin - includin
    }
    ```
 
-6. **Plugin Loading**: Plugins are dynamically loaded at runtime through the `handlePluginImporting` function, which:
+7. **Plugin Loading**: Plugins are dynamically loaded at runtime through the `handlePluginImporting` function, which:
    - Imports the plugin module
    - Reads the plugin configuration
    - Validates plugin parameters
    - Registers the plugin's components (clients, adapters, actions, etc.)
 
-7. **Client and Adapter Implementation**: When implementing clients or adapters:
+8. **Client and Adapter Implementation**: When implementing clients or adapters:
 
+0.x
 ```typescript
    // Client example
    const discordPlugin: Plugin = {
