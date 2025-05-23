@@ -1,4 +1,4 @@
-# ElizaOS Registry 
+# elizaOS Registry 
 
 <img src="static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
 
@@ -256,16 +256,16 @@ The `getSetting` method follows this precedence:
 
 ### Pull Request Requirements
 
-When submitting a plugin to the ElizaOS Registry, your PR must include:
+When submitting a plugin to the elizaOS Registry, your PR must include:
 
 1. **Working Demo Evidence:**
-   - Screenshots or video demonstrations of the plugin working with ElizaOS
+   - Screenshots or video demonstrations of the plugin working with elizaOS
    - Test results showing successful integration
    - Example agent configuration using your plugin
    - Documentation of any specific setup requirements
 
 2. **Integration Testing:**
-   - Proof of successful dynamic loading with ElizaOS
+   - Proof of successful dynamic loading with elizaOS
    - Test cases covering main functionality
    - Error handling demonstrations
    - Performance metrics (if applicable)
@@ -291,11 +291,11 @@ When submitting a plugin to the ElizaOS Registry, your PR must include:
    - [ ] Tests are passing
    - [ ] Demo evidence is provided
 
-Visit the [Elizaos Plugin Development Guide]([https://github.com/elizaos-plugins/plugin-image](https://github.com/elizaOS/eliza/blob/main/docs/docs/packages/plugins.md) for detailed information on creating new plugins.
+Visit the [elizaOS Plugin Development Guide]([https://github.com/elizaos-plugins/plugin-image](https://github.com/elizaOS/eliza/blob/main/docs/docs/packages/plugins.md) for detailed information on creating new plugins.
 
 ### Plugin Branding and Images
 
-To maintain a consistent and professional appearance across the ElizaOS ecosystem, we recommend including the following assets in your plugin repository:
+To maintain a consistent and professional appearance across the elizaOS ecosystem, we recommend including the following assets in your plugin repository:
 
 1. **Required Images:**
    - `logo.png` (400x400px) - Your plugin's square logo
