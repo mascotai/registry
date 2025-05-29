@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 
-const fs = require('fs');
-const path = require('path');
-const { Octokit } = require('@octokit/rest');
-const semver = require('semver');
+const fs = require("fs");
+const path = require("path");
+const { Octokit } = require("@octokit/rest");
+const semver = require("semver");
 
 // Registry configuration
-const REGISTRY_URL = 'https://raw.githubusercontent.com/elizaos-plugins/registry/refs/heads/main/index.json';
+const REGISTRY_URL =
+  "https://raw.githubusercontent.com/elizaos-plugins/registry/refs/heads/main/index.json";
 
 // Helper function to safely fetch JSON
 async function safeFetchJSON(url) {
@@ -15,11 +16,11 @@ async function safeFetchJSON(url) {
     if (!response.ok) return null;
     const data = await response.json();
     // Only filter if data is a record-like object
-    if (data && typeof data === 'object' && !Array.isArray(data)) {
+    if (data && typeof data === "object" && !Array.isArray(data)) {
       // Filter out entries with empty keys or comment-like entries
       const filtered = {};
       for (const [key, value] of Object.entries(data)) {
-        if (key && !key.startsWith('') && typeof value === 'string') {
+        if (key && !key.startsWith("") && typeof value === "string") {
           filtered[key] = value;
         }
       }
@@ -33,9 +34,9 @@ async function safeFetchJSON(url) {
 
 // Parse GitHub reference
 function parseGitRef(gitRef) {
-  if (!gitRef.startsWith('github:')) return null;
-  const repoPath = gitRef.slice('github:'.length);
-  const [owner, repo] = repoPath.split('/');
+  if (!gitRef.startsWith("github:")) return null;
+  const repoPath = gitRef.slice("github:".length);
+  const [owner, repo] = repoPath.split("/");
   if (!owner || !repo) return null;
   return { owner, repo };
 }
@@ -56,13 +57,15 @@ async function fetchPackageJSON(owner, repo, ref, octokit) {
     const { data } = await octokit.rest.repos.getContent({
       owner,
       repo,
-      path: 'package.json',
+      path: "package.json",
       ref,
     });
-    if (!('content' in data)) return null;
-    const pkg = JSON.parse(Buffer.from(data.content, 'base64').toString());
+    if (!("content" in data)) return null;
+    const pkg = JSON.parse(Buffer.from(data.content, "base64").toString());
     const coreRange =
-      pkg.dependencies?.['@elizaos/core'] || pkg.peerDependencies?.['@elizaos/core'] || undefined;
+      pkg.dependencies?.["@elizaos/core"] ||
+      pkg.peerDependencies?.["@elizaos/core"] ||
+      undefined;
     return { version: pkg.version, coreRange };
   } catch {
     return null;
@@ -72,7 +75,11 @@ async function fetchPackageJSON(owner, repo, ref, octokit) {
 // Get latest Git tags
 async function getLatestGitTags(owner, repo, octokit) {
   try {
-    const { data } = await octokit.rest.repos.listTags({ owner, repo, per_page: 100 });
+    const { data } = await octokit.rest.repos.listTags({
+      owner,
+      repo,
+      per_page: 100,
+    });
     const versions = data.map((t) => semver.clean(t.name)).filter(Boolean);
     const sorted = versions.sort(semver.rcompare);
     const latestV0 = sorted.find((v) => semver.major(v) === 0);
@@ -107,7 +114,7 @@ async function inspectNpm(pkgName) {
 
 // Guess NPM name from JS name
 function guessNpmName(jsName) {
-  return jsName.replace(/^@elizaos-plugins\//, '@elizaos/');
+  return jsName.replace(/^@elizaos-plugins\//, "@elizaos/");
 }
 
 // Process a single repository
@@ -127,9 +134,13 @@ async function processRepo(npmId, gitRef, octokit) {
 
   // Support detection via package.json across relevant branches
   const branches = await branchesPromise;
-  const branchCandidates = ['main', 'master', '0.x', '1.x'].filter((b) => branches.includes(b));
+  const branchCandidates = ["main", "master", "0.x", "1.x"].filter((b) =>
+    branches.includes(b)
+  );
 
-  const pkgPromises = branchCandidates.map((br) => fetchPackageJSON(owner, repo, br, octokit));
+  const pkgPromises = branchCandidates.map((br) =>
+    fetchPackageJSON(owner, repo, br, octokit)
+  );
   const pkgResults = await Promise.allSettled(pkgPromises);
 
   const pkgs = [];
@@ -140,7 +151,7 @@ async function processRepo(npmId, gitRef, octokit) {
 
   for (let i = 0; i < pkgResults.length; i++) {
     const result = pkgResults[i];
-    if (result.status === 'fulfilled' && result.value) {
+    if (result.status === "fulfilled" && result.value) {
       const branch = branchCandidates[i];
       const pkg = result.value;
       pkgs.push({ ...pkg, branch });
@@ -152,9 +163,9 @@ async function processRepo(npmId, gitRef, octokit) {
 
   for (const pkg of pkgs) {
     if (pkg.coreRange) {
-      const satisfiesV0 = semver.satisfies('0.9.0', pkg.coreRange);
-      const satisfiesV1 = semver.satisfies('1.0.0', pkg.coreRange);
-      
+      const satisfiesV0 = semver.satisfies("0.9.0", pkg.coreRange);
+      const satisfiesV1 = semver.satisfies("1.0.0", pkg.coreRange);
+
       if (satisfiesV0) {
         supportsV0 = true;
         supportedBranches.v0 = pkg.branch;
@@ -210,21 +221,21 @@ async function parseRegistry(githubToken) {
   const octokit = new Octokit({ auth: githubToken });
 
   // Read local index.json file instead of fetching from URL
-  const indexPath = path.join(__dirname, '..', 'index.json');
+  const indexPath = path.join(__dirname, "..", "index.json");
   let registry;
-  
+
   try {
-    const indexContent = fs.readFileSync(indexPath, 'utf8');
+    const indexContent = fs.readFileSync(indexPath, "utf8");
     registry = JSON.parse(indexContent);
   } catch (error) {
-    console.error('Failed to read index.json:', error);
+    console.error("Failed to read index.json:", error);
     return null;
   }
 
   // Filter out comment entries
   const filteredRegistry = {};
   for (const [key, value] of Object.entries(registry)) {
-    if (key && !key.startsWith('') && typeof value === 'string') {
+    if (key && !key.startsWith("") && typeof value === "string") {
       filteredRegistry[key] = value;
     }
   }
@@ -249,29 +260,28 @@ async function parseRegistry(githubToken) {
 // Main execution
 async function main() {
   const githubToken = process.env.GITHUB_TOKEN;
-  
+
   if (!githubToken) {
-    console.error('GITHUB_TOKEN environment variable is required');
+    console.error("GITHUB_TOKEN environment variable is required");
     process.exit(1);
   }
 
   try {
-    console.log('Starting registry generation...');
+    console.log("Starting registry generation...");
     const result = await parseRegistry(githubToken);
-    
+
     if (!result) {
-      console.error('Failed to generate registry');
+      console.error("Failed to generate registry");
       process.exit(1);
     }
 
-    const outputPath = path.join(__dirname, '..', 'registry.json');
+    const outputPath = path.join(__dirname, "..", "generated-registry.json");
     fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
-    
+
     console.log(`Registry generated successfully: ${outputPath}`);
     console.log(`Generated ${Object.keys(result.registry).length} entries`);
-    
   } catch (error) {
-    console.error('Error generating registry:', error);
+    console.error("Error generating registry:", error);
     process.exit(1);
   }
 }
