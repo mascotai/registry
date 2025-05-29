@@ -15,17 +15,6 @@ async function safeFetchJSON(url) {
     const response = await fetch(url);
     if (!response.ok) return null;
     const data = await response.json();
-    // Only filter if data is a record-like object
-    if (data && typeof data === "object" && !Array.isArray(data)) {
-      // Filter out entries with empty keys or comment-like entries
-      const filtered = {};
-      for (const [key, value] of Object.entries(data)) {
-        if (key && !key.startsWith("") && typeof value === "string") {
-          filtered[key] = value;
-        }
-      }
-      return filtered;
-    }
     return data;
   } catch {
     return null;
@@ -227,19 +216,24 @@ async function parseRegistry(githubToken) {
   try {
     const indexContent = fs.readFileSync(indexPath, "utf8");
     registry = JSON.parse(indexContent);
+    console.log(`Read ${Object.keys(registry).length} total entries from index.json`);
   } catch (error) {
     console.error("Failed to read index.json:", error);
     return null;
   }
 
-  // Filter out comment entries
+  // Filter out comment entries (empty keys or keys that are just empty strings)
   const filteredRegistry = {};
   for (const [key, value] of Object.entries(registry)) {
-    if (key && !key.startsWith("") && typeof value === "string") {
+    if (key && key.trim() !== "" && typeof value === "string" && value.startsWith("github:")) {
       filteredRegistry[key] = value;
+    } else {
+      console.log(`Filtering out entry: "${key}" -> "${value}"`);
     }
   }
 
+  console.log(`Filtered to ${Object.keys(filteredRegistry).length} valid entries`);
+  
   const report = {};
 
   const tasks = Object.entries(filteredRegistry).map(([npmId, gitRef]) =>
