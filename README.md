@@ -1,11 +1,10 @@
-# elizaOS Registry 
+# elizaOS Registry
 
 <img src="static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
 
-
 ## Intro
-elizaOS supports dynamic plugin loading directly from the package registry.
 
+elizaOS supports dynamic plugin loading directly from the package registry.
 
 ### Available Plugins
 
@@ -24,7 +23,9 @@ All official plugins are hosted at [github.com/elizaos-plugins](https://github.c
 Visit the our [Registry Hub](https://eliza.how/packages)
 
 ### Adding Plugins on eliza
+
 1. **package.json:**
+
 ```json
 {
   "dependencies": {
@@ -35,13 +36,11 @@ Visit the our [Registry Hub](https://eliza.how/packages)
 ```
 
 2. **Character configuration:**
+
 ```json
 {
   "name": "MyAgent",
-  "plugins": [
-    "@elizaos/plugin-solana",
-    "@elizaos/plugin-twitter"
-  ]
+  "plugins": ["@elizaos/plugin-solana", "@elizaos/plugin-twitter"]
 }
 ```
 
@@ -52,6 +51,7 @@ Visit the our [Registry Hub](https://eliza.how/packages)
 elizaOS uses a unified plugin architecture where everything is a plugin - including clients, adapters, actions, evaluators, and services. This approach ensures consistent behavior and better extensibility. Here's how the architecture works:
 
 1. **Plugin Types**: Each plugin can provide one or more of the following:
+
    - Clients (e.g., Discord, Twitter, WhatsApp integrations)
    - Adapters (e.g., database adapters, caching systems)
    - Bootstrap (e.g., how the bot responds to events)
@@ -59,57 +59,64 @@ elizaOS uses a unified plugin architecture where everything is a plugin - includ
 
 2. **Plugin Interface**: All plugins implement the core Plugin interface:
    1.x (https://github.com/elizaOS/plugin-specification/blob/f800a4340e95123838c594528fa26ddff7ec9ecd/core-plugin-v2/src/types.ts#L569)
+
    ```typescript
    type Plugin = {
+     name: string;
+     description: string;
+     init?: (
+       config: Record<string, string>,
+       runtime: IAgentRuntime
+     ) => Promise<void>;
+     config?: { [key: string]: any };
+     services?: Service[];
+     componentTypes?: {
        name: string;
-       description: string;
-       init?: (config: Record<string, string>, runtime: IAgentRuntime) => Promise<void>;
-       config?: { [key: string]: any };
-       services?: Service[];
-       componentTypes?: {
-         name: string;
-         schema: Record<string, unknown>;
-         validator?: (data: any) => boolean;
-       }[];
-       actions?: Action[];
-       providers?: Provider[];
-       evaluators?: Evaluator[];
-       adapter?: IDatabaseAdapter;
-       models?: {
-         [key: string]: (...args: any[]) => Promise<any>;
-       };
-       events?: {
-         [K in keyof EventPayloadMap]?: EventHandler<K>[];
-       } & {
-         [key: string]: ((params: EventPayload) => Promise<any>)[];
-       };
-       routes?: Route[];
-       tests?: TestSuite[];
+       schema: Record<string, unknown>;
+       validator?: (data: any) => boolean;
+     }[];
+     actions?: Action[];
+     providers?: Provider[];
+     evaluators?: Evaluator[];
+     adapter?: IDatabaseAdapter;
+     models?: {
+       [key: string]: (...args: any[]) => Promise<any>;
+     };
+     events?: {
+       [K in keyof EventPayloadMap]?: EventHandler<K>[];
+     } & {
+       [key: string]: ((params: EventPayload) => Promise<any>)[];
+     };
+     routes?: Route[];
+     tests?: TestSuite[];
    };
    ```
 
    0.x (https://github.com/elizaOS/plugin-specification/blob/f800a4340e95123838c594528fa26ddff7ec9ecd/core-plugin-v1/src/types.ts#L664)
+
    ```typescript
    type Plugin = {
-       name: string;
-       description: string;
-       config?: { [key: string]: any };
-       actions?: Action[];
-       providers?: Provider[];
-       evaluators?: Evaluator[];
-       services?: Service[];
-       clients?: Client[];
-       adapters?: Adapter[];
+     name: string;
+     description: string;
+     config?: { [key: string]: any };
+     actions?: Action[];
+     providers?: Provider[];
+     evaluators?: Evaluator[];
+     services?: Service[];
+     clients?: Client[];
+     adapters?: Adapter[];
    };
    ```
 
-4. **Independent Repositories**: Each plugin lives in its own repository, allowing:
+3. **Independent Repositories**: Each plugin lives in its own repository, allowing:
+
    - Independent versioning and releases
    - Focused issue tracking and documentation
    - Easier maintenance and contribution
    - Separate CI/CD pipelines
 
-5. **Plugin Structure**: Each plugin repository should follow this structure:
+4. **Plugin Structure**: Each plugin repository should follow this structure:
+
    ```
    plugin-name/
    ├── images/
@@ -126,7 +133,8 @@ elizaOS uses a unified plugin architecture where everything is a plugin - includ
    └── README.md          # Plugin documentation
    ```
 
-6. **Package Configuration**: Your plugin's `package.json` must include an `agentConfig` section:
+5. **Package Configuration**: Your plugin's `package.json` must include an `agentConfig` section:
+
    ```json
    {
      "name": "@elizaos/plugin-example",
@@ -143,37 +151,39 @@ elizaOS uses a unified plugin architecture where everything is a plugin - includ
    }
    ```
 
-7. **Plugin Loading**: Plugins are dynamically loaded at runtime through the `handlePluginImporting` function, which:
+6. **Plugin Loading**: Plugins are dynamically loaded at runtime through the `handlePluginImporting` function, which:
+
    - Imports the plugin module
    - Reads the plugin configuration
    - Validates plugin parameters
    - Registers the plugin's components (clients, adapters, actions, etc.)
 
-8. **Client and Adapter Implementation**: When implementing clients or adapters:
+7. **Client and Adapter Implementation**: When implementing clients or adapters:
 
 0.x
-```typescript
-   // Client example
-   const discordPlugin: Plugin = {
-     name: "discord",
-     description: "Discord client plugin",
-     clients: [DiscordClientInterface]
-   };
 
-   // Adapter example
-   const postgresPlugin: Plugin = {
-     name: "postgres",
-     description: "PostgreSQL database adapter",
-     adapters: [PostgresDatabaseAdapter]
-   };
-   
-   // Adapter example
-   export const browserPlugin = {
-    name: "default",
-    description: "Pdf",
-    services: [PdfService],
-    actions: [],
-  };
+```typescript
+// Client example
+const discordPlugin: Plugin = {
+  name: "discord",
+  description: "Discord client plugin",
+  clients: [DiscordClientInterface],
+};
+
+// Adapter example
+const postgresPlugin: Plugin = {
+  name: "postgres",
+  description: "PostgreSQL database adapter",
+  adapters: [PostgresDatabaseAdapter],
+};
+
+// Adapter example
+export const browserPlugin = {
+  name: "default",
+  description: "Pdf",
+  services: [PdfService],
+  actions: [],
+};
 ```
 
 ### Environment Variables and Secrets
@@ -181,6 +191,7 @@ elizaOS uses a unified plugin architecture where everything is a plugin - includ
 Plugins can access environment variables and secrets in two ways:
 
 1. **Character Configuration**: Through `agent.json.secret` or character settings:
+
    ```json
    {
      "name": "MyAgent",
@@ -204,18 +215,19 @@ Plugins can access environment variables and secrets in two ways:
    ```
 
 The `getSetting` method follows this precedence:
+
 1. Character settings secrets
 2. Character settings
 3. Global settings
 
 ### Plugin Registration
+
 1. Add it to your agent's character configuration:
+
    ```json
    {
      "name": "MyAgent",
-     "plugins": [
-       "@elizaos/plugin-example"
-     ]
+     "plugins": ["@elizaos/plugin-example"]
    }
    ```
 
@@ -244,7 +256,6 @@ The `getSetting` method follows this precedence:
 3. Create a plugin.json file with metadata and configuration schema
 4. Document your plugin's functionality and required environment variables
 
-
 ### Plugin Development Guidelines
 
 1. **Minimal Dependencies**: Only include necessary dependencies
@@ -259,18 +270,21 @@ The `getSetting` method follows this precedence:
 When submitting a plugin to the elizaOS Registry, your PR must include:
 
 1. **Working Demo Evidence:**
+
    - Screenshots or video demonstrations of the plugin working with elizaOS
    - Test results showing successful integration
    - Example agent configuration using your plugin
    - Documentation of any specific setup requirements
 
 2. **Integration Testing:**
+
    - Proof of successful dynamic loading with elizaOS
    - Test cases covering main functionality
    - Error handling demonstrations
    - Performance metrics (if applicable)
 
 3. **Configuration Examples:**
+
    ```json
    {
      "name": "MyAgent",
@@ -298,6 +312,7 @@ Visit the [elizaOS Plugin Development Guide]([https://github.com/elizaos-plugins
 To maintain a consistent and professional appearance across the elizaOS ecosystem, we recommend including the following assets in your plugin repository:
 
 1. **Required Images:**
+
    - `logo.png` (400x400px) - Your plugin's square logo
    - `banner.png` (1280x640px) - A banner image for your plugin
    - `screenshot.png` - At least one screenshot demonstrating your plugin's functionality
@@ -312,7 +327,6 @@ To maintain a consistent and professional appearance across the elizaOS ecosyste
    │       ├── screenshot1.png
    │       └── screenshot2.png
    ```
-   
 3. **Image Guidelines:**
    - Use clear, high-resolution images
    - Keep file sizes optimized (< 500KB for logos, < 1MB for banners)
@@ -321,7 +335,7 @@ To maintain a consistent and professional appearance across the elizaOS ecosyste
 
 ## Automated Registry Generation
 
-This repository includes an automated system that generates a processed `registry.json` file whenever the `index.json` file is updated on the main branch.
+This repository includes an automated system that generates a processed `generated-registry.json` file whenever the `index.json` file is updated on the main branch.
 
 ### How it works:
 
@@ -332,7 +346,7 @@ This repository includes an automated system that generates a processed `registr
    - NPM package metadata
    - Branch information for different ElizaOS versions (v0.x and v1.x)
    - Compatibility information
-4. **Output**: A comprehensive `registry.json` file is generated and committed back to the repository
+4. **Output**: A comprehensive `generated-registry.json` file is generated and committed back to the repository
 
 ### Using the Generated Registry
 
@@ -340,10 +354,11 @@ The CLI and other tools can fetch the processed registry data directly from the 
 
 ```bash
 # Fetch the processed registry data
-curl https://raw.githubusercontent.com/elizaos-plugins/registry/main/registry.json
+curl https://raw.githubusercontent.com/elizaos-plugins/registry/main/generated-registry.json
 ```
 
 This provides:
+
 - Real-time version information
 - Compatibility details
 - Installation guidance
@@ -360,3 +375,5 @@ npm install
 # Generate registry.json (requires GITHUB_TOKEN environment variable)
 npm run generate-registry
 ```
+
+The generated file will be `generated-registry.json` and contains the same format as served by the Next.js API, making it easy to switch between the API and static file approaches.

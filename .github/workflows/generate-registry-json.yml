@@ -38,7 +38,10 @@ jobs:
       - name: Check if generated-registry.json changed
         id: check-changes
         run: |
-          if git diff --quiet generated-registry.json; then
+          if [ ! -f "generated-registry.json" ]; then
+            echo "File doesn't exist yet, marking as changed"
+            echo "changed=true" >> $GITHUB_OUTPUT
+          elif git diff --quiet generated-registry.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -50,7 +53,11 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add generated-registry.json
-          git commit -m "Auto-generate generated-registry.json from index.json [skip ci]"
+          if git ls-files --error-unmatch generated-registry.json >/dev/null 2>&1; then
+            git commit -m "Auto-update generated-registry.json from index.json [skip ci]"
+          else
+            git commit -m "Initial generation of generated-registry.json from index.json [skip ci]"
+          fi
           git push
 
       - name: No changes detected
