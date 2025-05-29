@@ -1,0 +1,58 @@
+name: Generate Registry JSON
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'index.json'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  generate-registry:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write # Needed to commit changes
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Generate registry.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run generate-registry
+        
+      - name: Check if registry.json changed
+        id: check-changes
+        run: |
+          if git diff --quiet registry.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Commit and push registry.json
+        if: steps.check-changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add registry.json
+          git commit -m "Auto-generate registry.json from index.json [skip ci]"
+          git push
+          
+      - name: No changes detected
+        if: steps.check-changes.outputs.changed == 'false'
+        run: echo "No changes detected in registry.json"

@@ -318,3 +318,45 @@ To maintain a consistent and professional appearance across the elizaOS ecosyste
    - Keep file sizes optimized (< 500KB for logos, < 1MB for banners)
    - [Image example](https://github.com/elizaos-plugins/client-twitter/blob/main/images/banner.jpg)
    - Include alt text for accessibility
+
+## Automated Registry Generation
+
+This repository includes an automated system that generates a processed `registry.json` file whenever the `index.json` file is updated on the main branch.
+
+### How it works:
+
+1. **Source Data**: The `index.json` file contains the raw registry mappings from plugin names to GitHub repositories
+2. **GitHub Action**: When `index.json` is pushed to the main branch, a GitHub Action automatically runs
+3. **Processing**: The action processes each plugin entry to gather:
+   - Version information from Git tags
+   - NPM package metadata
+   - Branch information for different ElizaOS versions (v0.x and v1.x)
+   - Compatibility information
+4. **Output**: A comprehensive `registry.json` file is generated and committed back to the repository
+
+### Using the Generated Registry
+
+The CLI and other tools can fetch the processed registry data directly from the raw GitHub URL:
+
+```bash
+# Fetch the processed registry data
+curl https://raw.githubusercontent.com/elizaos-plugins/registry/main/registry.json
+```
+
+This provides:
+- Real-time version information
+- Compatibility details
+- Installation guidance
+- Complete plugin metadata
+
+### Manual Generation
+
+You can also generate the registry manually:
+
+```bash
+# Install dependencies
+npm install
+
+# Generate registry.json (requires GITHUB_TOKEN environment variable)
+npm run generate-registry
+```
