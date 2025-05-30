@@ -69,14 +69,22 @@ async function getLatestGitTags(owner, repo, octokit) {
       repo,
       per_page: 100,
     });
-    const versions = data.map((t) => semver.clean(t.name)).filter(Boolean);
-    const sorted = versions.sort(semver.rcompare);
-    const latestV0 = sorted.find((v) => semver.major(v) === 0);
-    const latestV1 = sorted.find((v) => semver.major(v) === 1);
+    
+    // Filter tags that have valid semver versions
+    const validTags = data.filter(tag => semver.clean(tag.name));
+    
+    // Sort by cleaned version (for comparison) but keep original tag names
+    const sorted = validTags.sort((a, b) => 
+      semver.rcompare(semver.clean(a.name), semver.clean(b.name))
+    );
+    
+    const latestV0Tag = sorted.find((tag) => semver.major(semver.clean(tag.name)) === 0);
+    const latestV1Tag = sorted.find((tag) => semver.major(semver.clean(tag.name)) === 1);
+    
     return {
       repo: `${owner}/${repo}`,
-      v0: latestV0 || null,
-      v1: latestV1 || null,
+      v0: latestV0Tag ? latestV0Tag.name : null,
+      v1: latestV1Tag ? latestV1Tag.name : null,
     };
   } catch (error) {
     console.warn(`Failed to get tags for ${owner}/${repo}:`, error.message);
@@ -103,6 +111,9 @@ async function inspectNpm(pkgName) {
 
 // Guess NPM name from JS name
 function guessNpmName(jsName) {
+  // Keep @elizaos-plugins/ scope for packages that exist under the new scope
+  // For now, fallback to @elizaos/ for compatibility, but this should be updated
+  // when packages are fully migrated to @elizaos-plugins/
   return jsName.replace(/^@elizaos-plugins\//, "@elizaos/");
 }
 
