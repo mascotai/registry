@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-05-29T21:42:56.355Z",
+  "lastUpdatedAt": "2025-05-30T02:53:07.614Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -3177,14 +3177,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.77",
+          "version": "1.0.0-beta.80",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-tee",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0-beta.77"
+        "v1": "1.0.0-beta.80"
       },
       "supports": {
         "v0": true,
@@ -3689,6 +3689,28 @@
       },
       "npm": {
         "repo": "@elizaos/plugin-zytron",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-cardano": {
+      "git": {
+        "repo": "relipasoft/plugin-cardano",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-cardano",
         "v0": null,
         "v1": null
       },
