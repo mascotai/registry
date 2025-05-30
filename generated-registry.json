@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-05-30T19:05:46.658Z",
+  "lastUpdatedAt": "2025-05-30T20:14:02.696Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -2003,6 +2003,28 @@
         "v1": false
       }
     },
+    "@elizaos-plugins/plugin-livekit": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-livekit",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-livekit",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
     "@elizaos-plugins/plugin-lightlink": {
       "git": {
         "repo": "lightlink-network/plugin-lightlink",
@@ -2166,7 +2188,7 @@
         },
         "v1": {
           "version": null,
-          "branch": "master"
+          "branch": null
         }
       },
       "npm": {
@@ -2176,7 +2198,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": true
+        "v1": false
       }
     },
     "@elizaos-plugins/plugin-morpheus": {
@@ -2628,7 +2650,7 @@
         },
         "v1": {
           "version": "v1.0.0-beta.57",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -2804,7 +2826,7 @@
         },
         "v1": {
           "version": "1.0.0-beta.43",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -2936,7 +2958,7 @@
         },
         "v1": {
           "version": "v1.0.0-beta.54",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
