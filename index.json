@@ -172,5 +172,5 @@
     "@elizaos-plugins/plugin-zksync-era": "github:elizaos-plugins/plugin-zksync-era",
     "@elizaos-plugins/plugin-zytron": "github:zypher-network/plugin-zytron",
     "@elizaos-plugins/plugin-reveel-payid": "github:r3vl/plugin-reveel-payid",
-    "@elizaos-plugins/plugin-cardano": "github:tuanvm-relipa/plugin-cardano"
+    "@elizaos-plugins/plugin-cardano": "github:relipasoft/plugin-cardano"
 }
