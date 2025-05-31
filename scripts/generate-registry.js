@@ -78,8 +78,23 @@ async function getLatestGitTags(owner, repo, octokit) {
       semver.rcompare(semver.clean(a.name), semver.clean(b.name))
     );
     
+    // Find latest v0 tag
     const latestV0Tag = sorted.find((tag) => semver.major(semver.clean(tag.name)) === 0);
-    const latestV1Tag = sorted.find((tag) => semver.major(semver.clean(tag.name)) === 1);
+    
+    // Find latest v1 tag (including beta and stable)
+    const v1Tags = sorted.filter((tag) => semver.major(semver.clean(tag.name)) === 1);
+    let latestV1Tag = null;
+    
+    if (v1Tags.length > 0) {
+      // First, try to find a stable v1 tag
+      const stableV1Tag = v1Tags.find(tag => !semver.clean(tag.name).includes('-'));
+      if (stableV1Tag) {
+        latestV1Tag = stableV1Tag;
+      } else {
+        // If no stable version, use the latest pre-release
+        latestV1Tag = v1Tags[0];
+      }
+    }
     
     return {
       repo: `${owner}/${repo}`,
@@ -100,8 +115,25 @@ async function inspectNpm(pkgName) {
   }
   const versions = Object.keys(meta.versions);
   const sorted = versions.sort(semver.rcompare);
+  
+  // Find latest v0 version
   const v0 = sorted.find((v) => semver.major(v) === 0) || null;
-  const v1 = sorted.find((v) => semver.major(v) === 1) || null;
+  
+  // Find latest v1 version (including beta and stable)
+  const v1Versions = sorted.filter((v) => semver.major(v) === 1);
+  let v1 = null;
+  
+  if (v1Versions.length > 0) {
+    // First, try to find a stable v1 version
+    const stableV1 = v1Versions.find(v => !v.includes('-'));
+    if (stableV1) {
+      v1 = stableV1;
+    } else {
+      // If no stable version, use the latest pre-release
+      v1 = v1Versions[0];
+    }
+  }
+  
   return {
     repo: pkgName,
     v0,
@@ -179,7 +211,7 @@ async function processRepo(npmId, gitRef, octokit) {
 
   const [gitTagInfo, npmInfo] = await Promise.all([tagsPromise, npmPromise]);
 
-  // Set version support based on npm versions
+  // Set version support based on npm versions first (more reliable)
   if (npmInfo?.v0) {
     supportsV0 = true;
   }
@@ -190,6 +222,7 @@ async function processRepo(npmId, gitRef, octokit) {
   console.log(`${npmId} → v0:${supportsV0} v1:${supportsV1}`);
 
   // Prepare git info with versions and branches
+  // When GitHub data is not available, use npm data as fallback
   const gitInfo = {
     repo: gitTagInfo?.repo || npmInfo?.repo || `${owner}/${repo}`,
     v0: {
@@ -203,8 +236,9 @@ async function processRepo(npmId, gitRef, octokit) {
   };
 
   // Set version support flags based on both branch detection and npm versions
-  supportsV0 = supportsV0 || !!supportedBranches.v0;
-  supportsV1 = supportsV1 || !!supportedBranches.v1;
+  // Prioritize npm data when available
+  supportsV0 = supportsV0 || !!supportedBranches.v0 || !!npmInfo?.v0;
+  supportsV1 = supportsV1 || !!supportedBranches.v1 || !!npmInfo?.v1;
 
   return [
     npmId,
