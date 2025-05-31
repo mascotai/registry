@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-05-30T20:14:02.696Z",
+  "lastUpdatedAt": "2025-05-31T22:48:53.459Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -581,14 +581,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0-beta.54",
+          "version": "v1.0.0",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-anthropic",
         "v0": null,
-        "v1": "1.0.0-beta.54"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": false,
@@ -911,14 +911,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.76",
+          "version": "1.0.2",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.0.0-beta.76"
+        "v1": "1.0.2"
       },
       "supports": {
         "v0": true,
@@ -933,14 +933,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.41",
+          "version": "v1.0.0",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-browser",
         "v0": null,
-        "v1": "1.0.0-beta.41"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": false,
@@ -1307,14 +1307,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0-beta.57",
+          "version": "1.0.3",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-discord",
         "v0": null,
-        "v1": "1.0.0-beta.57"
+        "v1": "1.0.3"
       },
       "supports": {
         "v0": false,
@@ -1373,14 +1373,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0-beta.53",
+          "version": "v1.0.0",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-elevenlabs",
         "v0": null,
-        "v1": "1.0.0-beta.53"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": false,
@@ -1417,14 +1417,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0-beta.54",
-          "branch": null
+          "version": "v1.0.3",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-evm",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0-beta.54"
+        "v1": "1.0.3"
       },
       "supports": {
         "v0": true,
@@ -1461,14 +1461,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0-beta.55",
+          "version": "v1.0.0",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-farcaster",
         "v0": null,
-        "v1": "1.0.0-beta.55"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": false,
@@ -1747,14 +1747,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0-beta.53",
+          "version": "v1.0.0",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-groq",
         "v0": null,
-        "v1": "1.0.0-beta.53"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": false,
@@ -2011,8 +2011,8 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -2022,7 +2022,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       }
     },
     "@elizaos-plugins/plugin-lightlink": {
@@ -2055,14 +2055,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0-beta.73",
+          "version": "v1.0.0",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-local-ai",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0-beta.73"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": true,
@@ -2121,14 +2121,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0-beta.56",
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-mcp",
         "v0": null,
-        "v1": "1.0.0-beta.56"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": false,
@@ -2188,7 +2188,7 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "master"
         }
       },
       "npm": {
@@ -2198,7 +2198,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       }
     },
     "@elizaos-plugins/plugin-morpheus": {
@@ -2206,11 +2206,11 @@
         "repo": "bowtiedbluefin/plugin-morpheus",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "main"
         }
       },
       "npm": {
@@ -2219,8 +2219,8 @@
         "v1": null
       },
       "supports": {
-        "v0": false,
-        "v1": false
+        "v0": true,
+        "v1": true
       }
     },
     "@elizaos-plugins/plugin-movement": {
@@ -2473,14 +2473,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0-beta.56",
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-ollama",
         "v0": null,
-        "v1": "1.0.0-beta.56"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": false,
@@ -2561,14 +2561,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0-beta.74",
+          "version": "v1.0.0",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-openai",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0-beta.74"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": true,
@@ -2649,14 +2649,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0-beta.57",
+          "version": "v1.0.0",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-pdf",
         "v0": null,
-        "v1": "1.0.0-beta.57"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": false,
@@ -2825,14 +2825,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.43",
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-redpill",
         "v0": null,
-        "v1": "1.0.0-beta.43"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": false,
@@ -2957,14 +2957,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0-beta.54",
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-solana",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0-beta.54"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": true,
@@ -3045,14 +3045,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.76",
+          "version": "1.0.2",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.0.0-beta.76"
+        "v1": "1.0.2"
       },
       "supports": {
         "v0": false,
@@ -3133,14 +3133,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.41",
+          "version": "v1.0.0",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-storage-s3",
         "v0": null,
-        "v1": "1.0.0-beta.41"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": false,
@@ -3199,14 +3199,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0-beta.81",
+          "version": "v1.0.0",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-tee",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0-beta.81"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": true,
@@ -3265,14 +3265,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0-beta.55",
+          "version": "v1.0.0",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-telegram",
         "v0": null,
-        "v1": "1.0.0-beta.55"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": false,
@@ -3419,14 +3419,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0-beta.57",
+          "version": "v1.0.0",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-twitter",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0-beta.57"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": true,
@@ -3441,7 +3441,7 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.41",
+          "version": "v1.0.0",
           "branch": "1.x"
         }
       },
@@ -3507,14 +3507,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.40",
+          "version": "v1.0.0",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-video-understanding",
         "v0": null,
-        "v1": "1.0.0-beta.40"
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": false,
