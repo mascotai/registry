@@ -84,6 +84,7 @@
     "@elizaos-plugins/plugin-grix": "github:grixprotocol/plugin-grix",
     "@elizaos-plugins/plugin-groq": "github:elizaos-plugins/plugin-groq",
     "@elizaos-plugins/plugin-hedera": "github:hedera-dev/plugin-hedera",
+    "@elizaos-plugins/plugin-holoworld": "github:mcp-dao/plugin-holoworld",
     "@elizaos-plugins/plugin-hyperliquid": "github:elizaos-plugins/plugin-hyperliquid",
     "@elizaos-plugins/plugin-icp": "github:elizaos-plugins/plugin-icp",
     "@elizaos-plugins/plugin-iexec": "github:iExecBlockchainComputing/plugin-iexec",
