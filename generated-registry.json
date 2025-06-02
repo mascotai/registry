@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-05-31T22:48:53.459Z",
+  "lastUpdatedAt": "2025-06-02T14:43:07.194Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -1307,7 +1307,7 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.3",
+          "version": "v1.0.3",
           "branch": "1.x"
         }
       },
@@ -1417,14 +1417,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.3",
+          "version": "v1.0.4",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-evm",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.3"
+        "v1": "1.0.4"
       },
       "supports": {
         "v0": true,
@@ -1783,6 +1783,28 @@
         "v1": false
       }
     },
+    "@elizaos-plugins/plugin-holoworld": {
+      "git": {
+        "repo": "mcp-dao/plugin-holoworld",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-holoworld",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
     "@elizaos-plugins/plugin-hyperliquid": {
       "git": {
         "repo": "elizaos-plugins/plugin-hyperliquid",
@@ -2121,14 +2143,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0",
+          "version": "v1.0.1",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-mcp",
         "v0": null,
-        "v1": "1.0.0"
+        "v1": "1.0.1"
       },
       "supports": {
         "v0": false,
@@ -2206,11 +2228,11 @@
         "repo": "bowtiedbluefin/plugin-morpheus",
         "v0": {
           "version": null,
-          "branch": "main"
+          "branch": null
         },
         "v1": {
           "version": null,
-          "branch": "main"
+          "branch": null
         }
       },
       "npm": {
@@ -2219,8 +2241,8 @@
         "v1": null
       },
       "supports": {
-        "v0": true,
-        "v1": true
+        "v0": false,
+        "v1": false
       }
     },
     "@elizaos-plugins/plugin-movement": {
@@ -2474,7 +2496,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -3419,14 +3441,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0",
-          "branch": "1.x"
+          "version": "v1.0.1",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-twitter",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0"
+        "v1": "1.0.1"
       },
       "supports": {
         "v0": true,
