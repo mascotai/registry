@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-03T16:40:38.905Z",
+  "lastUpdatedAt": "2025-06-03T18:24:08.097Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -3805,6 +3805,28 @@
       "supports": {
         "v0": false,
         "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-xmtp": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-xmtp",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-xmtp",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
       }
     }
   }
