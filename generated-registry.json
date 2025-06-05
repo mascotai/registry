@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-05T14:00:30.159Z",
+  "lastUpdatedAt": "2025-06-05T15:27:56.505Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -1307,14 +1307,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.5",
+          "version": "v1.0.6",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-discord",
         "v0": null,
-        "v1": "1.0.5"
+        "v1": "1.0.6"
       },
       "supports": {
         "v0": false,
@@ -2099,14 +2099,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0",
+          "version": "v1.0.1",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-local-ai",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0"
+        "v1": "1.0.1"
       },
       "supports": {
         "v0": true,
