@@ -246,7 +246,7 @@ const App = () => {
             <input
               type="search"
               placeholder="Search plugins..."
-              className="w-full h-12 pl-10 pr-4 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-500"
+              className="w-full h-12 pl-10 pr-4 rounded-lg border border-gray-200 focus:outline-hidden focus:ring-2 focus:ring-orange-500"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
