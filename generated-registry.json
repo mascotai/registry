@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-05T15:27:56.505Z",
+  "lastUpdatedAt": "2025-06-06T01:37:37.884Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -911,14 +911,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.4",
+          "version": "1.0.5",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.0.4"
+        "v1": "1.0.5"
       },
       "supports": {
         "v0": true,
@@ -1989,14 +1989,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0",
+          "version": "1.0.1",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-knowledge",
         "v0": null,
-        "v1": "1.0.0"
+        "v1": "1.0.1"
       },
       "supports": {
         "v0": false,
@@ -3089,14 +3089,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.4",
+          "version": "1.0.5",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.0.4"
+        "v1": "1.0.5"
       },
       "supports": {
         "v0": false,
@@ -3463,14 +3463,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.5",
+          "version": "v1.0.6",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-twitter",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.5"
+        "v1": "1.0.6"
       },
       "supports": {
         "v0": true,
@@ -3794,7 +3794,7 @@
         },
         "v1": {
           "version": null,
-          "branch": "main"
+          "branch": null
         }
       },
       "npm": {
@@ -3804,7 +3804,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": true
+        "v1": false
       }
     },
     "@elizaos-plugins/plugin-xmtp": {
