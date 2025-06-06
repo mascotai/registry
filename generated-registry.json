@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-06T01:37:37.884Z",
+  "lastUpdatedAt": "2025-06-06T09:01:56.391Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -1373,14 +1373,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.1",
-          "branch": "1.x"
+          "version": "v1.0.2",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-elevenlabs",
         "v0": null,
-        "v1": "1.0.1"
+        "v1": "1.0.2"
       },
       "supports": {
         "v0": false,
@@ -3827,6 +3827,28 @@
       "supports": {
         "v0": false,
         "v1": true
+      }
+    },
+    "@mazzz/plugin-elizaos-compchembridge": {
+      "git": {
+        "repo": "Mazzz-zzz/plugin-elizaos-compchembridge",
+        "v0": {
+          "version": "0.1.8",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@mazzz/plugin-elizaos-compchembridge",
+        "v0": "0.1.8",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
       }
     }
   }
