@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-11T21:19:26.940Z",
+  "lastUpdatedAt": "2025-06-12T06:20:22.670Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -2100,7 +2100,7 @@
         },
         "v1": {
           "version": "v1.0.4",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -2232,7 +2232,7 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "master"
         }
       },
       "npm": {
@@ -2242,7 +2242,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       }
     },
     "@elizaos-plugins/plugin-morpheus": {
@@ -2250,11 +2250,11 @@
         "repo": "bowtiedbluefin/plugin-morpheus",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "main"
         }
       },
       "npm": {
@@ -2263,8 +2263,8 @@
         "v1": null
       },
       "supports": {
-        "v0": false,
-        "v1": false
+        "v0": true,
+        "v1": true
       }
     },
     "@elizaos-plugins/plugin-movement": {
@@ -2518,7 +2518,7 @@
         },
         "v1": {
           "version": "v1.0.3",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -3155,7 +3155,7 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.2.1",
+          "version": null,
           "branch": null
         }
       },
@@ -3827,6 +3827,28 @@
       "supports": {
         "v0": false,
         "v1": true
+      }
+    },
+    "@kudo-dev/plugin-kudo": {
+      "git": {
+        "repo": "Kudo-Archi/plugin-kudo",
+        "v0": {
+          "version": "0.1.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@kudo-dev/plugin-kudo",
+        "v0": "0.1.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
       }
     },
     "@mazzz/plugin-elizaos-compchembridge": {
