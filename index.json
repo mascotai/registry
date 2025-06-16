@@ -122,6 +122,7 @@
     "@elizaos-plugins/plugin-opacity": "github:elizaos-plugins/plugin-opacity",
     "@elizaos-plugins/plugin-open-weather": "github:elizaos-plugins/plugin-open-weather",
     "@elizaos-plugins/plugin-openai": "github:elizaos-plugins/plugin-openai",
+    "@elizaos-plugins/plugin-openrouter": "github:elizaos-plugins/plugin-openrouter",
     "@elizaos-plugins/plugin-orderly": "github:orderlynetwork/plugin-orderly",
     "@elizaos-plugins/plugin-para": "github:aipop-fun/plugin-para",
     "@elizaos-plugins/plugin-payai": "github:notorious-d-e-v/plugin-payai",
