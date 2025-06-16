@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-16T09:17:10.659Z",
+  "lastUpdatedAt": "2025-06-16T09:20:00.906Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -1695,6 +1695,28 @@
         "v1": false
       }
     },
+    "@elizaos-plugins/plugin-google-genai": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-google-genai",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.3",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-google-genai",
+        "v0": null,
+        "v1": "1.0.0"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
     "@elizaos-plugins/plugin-goplus": {
       "git": {
         "repo": "elizaos-plugins/plugin-goplus",
@@ -2056,7 +2078,7 @@
         },
         "v1": {
           "version": "v1.0.2",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -2066,7 +2088,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       }
     },
     "@elizaos-plugins/plugin-lightlink": {
@@ -2254,7 +2276,7 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "main"
         }
       },
       "npm": {
@@ -2264,7 +2286,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       }
     },
     "@elizaos-plugins/plugin-movement": {
@@ -2518,7 +2540,7 @@
         },
         "v1": {
           "version": "v1.0.3",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -2606,7 +2628,7 @@
         },
         "v1": {
           "version": "v1.0.4",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -2716,7 +2738,7 @@
         },
         "v1": {
           "version": "v1.0.1",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
