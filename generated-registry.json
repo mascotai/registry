@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-12T15:27:11.374Z",
+  "lastUpdatedAt": "2025-06-16T09:17:10.659Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -911,14 +911,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.8",
+          "version": "1.0.9",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.0.8"
+        "v1": "1.0.9"
       },
       "supports": {
         "v0": true,
@@ -1417,14 +1417,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.10",
+          "version": "v1.0.12",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-evm",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.10"
+        "v1": "1.0.12"
       },
       "supports": {
         "v0": true,
@@ -1461,7 +1461,7 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.2",
+          "version": "v1.0.4",
           "branch": "1.x"
         }
       },
@@ -2056,7 +2056,7 @@
         },
         "v1": {
           "version": "v1.0.2",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -2066,7 +2066,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": true
+        "v1": false
       }
     },
     "@elizaos-plugins/plugin-lightlink": {
@@ -2165,14 +2165,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.6",
+          "version": "v1.0.7",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-mcp",
         "v0": null,
-        "v1": "1.0.6"
+        "v1": "1.0.7"
       },
       "supports": {
         "v0": false,
@@ -2254,7 +2254,7 @@
         },
         "v1": {
           "version": null,
-          "branch": "main"
+          "branch": null
         }
       },
       "npm": {
@@ -2264,7 +2264,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": true
+        "v1": false
       }
     },
     "@elizaos-plugins/plugin-movement": {
@@ -2518,7 +2518,7 @@
         },
         "v1": {
           "version": "v1.0.3",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -2606,7 +2606,7 @@
         },
         "v1": {
           "version": "v1.0.4",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -2616,6 +2616,28 @@
       },
       "supports": {
         "v0": true,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-openrouter": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-openrouter",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.3",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-openrouter",
+        "v0": null,
+        "v1": "1.0.3"
+      },
+      "supports": {
+        "v0": false,
         "v1": true
       }
     },
@@ -2694,7 +2716,7 @@
         },
         "v1": {
           "version": "v1.0.1",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -3089,14 +3111,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.8",
+          "version": "1.0.9",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.0.8"
+        "v1": "1.0.9"
       },
       "supports": {
         "v0": false,
@@ -3309,14 +3331,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.2",
+          "version": "v1.0.4",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-telegram",
         "v0": null,
-        "v1": "1.0.2"
+        "v1": "1.0.4"
       },
       "supports": {
         "v0": false,
