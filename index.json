@@ -80,6 +80,7 @@
     "@elizaos-plugins/plugin-giphy": "github:elizaos-plugins/plugin-giphy",
     "@elizaos-plugins/plugin-gitbook": "github:elizaos-plugins/plugin-gitbook",
     "@elizaos-plugins/plugin-goat": "github:elizaos-plugins/plugin-goat",
+    "@elizaos-plugins/plugin-google-genai": "github:elizaos-plugins/plugin-google-genai",
     "@elizaos-plugins/plugin-goplus": "github:elizaos-plugins/plugin-goplus",
     "@elizaos-plugins/plugin-grix": "github:grixprotocol/plugin-grix",
     "@elizaos-plugins/plugin-groq": "github:elizaos-plugins/plugin-groq",
