@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-19T14:46:40.995Z",
+  "lastUpdatedAt": "2025-06-19T14:48:03.208Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -377,7 +377,7 @@
     },
     "@elizaos-plugins/client-twitter-api-access": {
       "git": {
-        "repo": "notorious-d-e-v/client-twitter-api-access",
+        "repo": "payainetwork/client-twitter-api-access",
         "v0": {
           "version": null,
           "branch": null
@@ -2100,7 +2100,7 @@
         },
         "v1": {
           "version": "v1.0.2",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -2110,7 +2110,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       }
     },
     "@elizaos-plugins/plugin-lightlink": {
@@ -2144,7 +2144,7 @@
         },
         "v1": {
           "version": "v1.0.4",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -2731,7 +2731,7 @@
     },
     "@elizaos-plugins/plugin-payai": {
       "git": {
-        "repo": "notorious-d-e-v/plugin-payai",
+        "repo": "payainetwork/plugin-payai",
         "v0": {
           "version": null,
           "branch": null
