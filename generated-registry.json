@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-16T09:20:00.906Z",
+  "lastUpdatedAt": "2025-06-19T14:46:40.995Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -947,6 +947,28 @@
         "v1": true
       }
     },
+    "@elizaos-plugins/plugin-cardano": {
+      "git": {
+        "repo": "relipasoft/plugin-cardano",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "1.0.11",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-cardano",
+        "v0": null,
+        "v1": "1.0.11"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
     "@elizaos-plugins/plugin-ccxt": {
       "git": {
         "repo": "pranavjadhav1363/plugin-ccxt",
@@ -1461,14 +1483,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.4",
-          "branch": "1.x"
+          "version": "v1.0.5",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-farcaster",
         "v0": null,
-        "v1": "1.0.2"
+        "v1": "1.0.5"
       },
       "supports": {
         "v0": false,
@@ -2011,14 +2033,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.5",
+          "version": "1.0.6",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-knowledge",
         "v0": null,
-        "v1": "1.0.5"
+        "v1": "1.0.6"
       },
       "supports": {
         "v0": false,
@@ -2078,7 +2100,7 @@
         },
         "v1": {
           "version": "v1.0.2",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -2088,7 +2110,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": true
+        "v1": false
       }
     },
     "@elizaos-plugins/plugin-lightlink": {
@@ -2122,7 +2144,7 @@
         },
         "v1": {
           "version": "v1.0.4",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -2249,7 +2271,7 @@
       "git": {
         "repo": "messari/plugin-messari-ai-toolkit",
         "v0": {
-          "version": "v0.0.1",
+          "version": "v0.0.2",
           "branch": null
         },
         "v1": {
@@ -3799,28 +3821,6 @@
       },
       "npm": {
         "repo": "@elizaos/plugin-zytron",
-        "v0": null,
-        "v1": null
-      },
-      "supports": {
-        "v0": false,
-        "v1": false
-      }
-    },
-    "@elizaos-plugins/plugin-cardano": {
-      "git": {
-        "repo": "relipasoft/plugin-cardano",
-        "v0": {
-          "version": null,
-          "branch": null
-        },
-        "v1": {
-          "version": null,
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "@elizaos/plugin-cardano",
         "v0": null,
         "v1": null
       },
