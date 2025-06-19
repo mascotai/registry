@@ -46,6 +46,7 @@
     "@elizaos-plugins/plugin-bnv-me-id": "github:brand-new-vision/plugin-bnv-me-id",
     "@elizaos-plugins/plugin-bootstrap": "github:elizaos-plugins/plugin-bootstrap",
     "@elizaos-plugins/plugin-browser": "github:elizaos-plugins/plugin-browser",
+    "@elizaos-plugins/plugin-cardano": "github:elizaos-plugins/plugin-cardano",
     "@elizaos-plugins/plugin-ccxt": "github:pranavjadhav1363/plugin-ccxt",
     "@elizaos-plugins/plugin-clara-twitter": "github:warp-contracts/plugin-clara-twitter",
     "@elizaos-plugins/plugin-coinbase": "github:elizaos-plugins/plugin-coinbase",
