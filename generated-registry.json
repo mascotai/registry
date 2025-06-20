@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-19T14:48:03.208Z",
+  "lastUpdatedAt": "2025-06-20T02:34:08.827Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -2033,14 +2033,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.6",
+          "version": "1.0.7",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-knowledge",
         "v0": null,
-        "v1": "1.0.6"
+        "v1": "1.0.7"
       },
       "supports": {
         "v0": false,
@@ -2100,7 +2100,7 @@
         },
         "v1": {
           "version": "v1.0.2",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -2110,7 +2110,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": true
+        "v1": false
       }
     },
     "@elizaos-plugins/plugin-lightlink": {
@@ -2144,7 +2144,7 @@
         },
         "v1": {
           "version": "v1.0.4",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -2294,11 +2294,11 @@
         "repo": "bowtiedbluefin/plugin-morpheus",
         "v0": {
           "version": null,
-          "branch": "main"
+          "branch": null
         },
         "v1": {
           "version": null,
-          "branch": "main"
+          "branch": null
         }
       },
       "npm": {
@@ -2308,7 +2308,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": true
+        "v1": false
       }
     },
     "@elizaos-plugins/plugin-movement": {
@@ -3827,28 +3827,6 @@
       "supports": {
         "v0": false,
         "v1": false
-      }
-    },
-    "@elizaos-plugins/plugin-cardano": {
-      "git": {
-        "repo": "relipasoft/plugin-cardano",
-        "v0": {
-          "version": null,
-          "branch": null
-        },
-        "v1": {
-          "version": "1.0.11",
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "@elizaos/plugin-cardano",
-        "v0": null,
-        "v1": "1.0.11"
-      },
-      "supports": {
-        "v0": false,
-        "v1": true
       }
     },
     "@elizaos-plugins/plugin-reveel-payid": {
