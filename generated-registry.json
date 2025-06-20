@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-12T06:20:22.670Z",
+  "lastUpdatedAt": "2025-06-20T02:29:42.550Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -911,14 +911,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.8",
+          "version": "1.0.9",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.0.8"
+        "v1": "1.0.9"
       },
       "supports": {
         "v0": true,
@@ -1417,14 +1417,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.10",
+          "version": "v1.0.12",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-evm",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.10"
+        "v1": "1.0.12"
       },
       "supports": {
         "v0": true,
@@ -1461,14 +1461,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.2",
-          "branch": "1.x"
+          "version": "v1.0.5",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-farcaster",
         "v0": null,
-        "v1": "1.0.2"
+        "v1": "1.0.5"
       },
       "supports": {
         "v0": false,
@@ -1989,14 +1989,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.4",
+          "version": "1.0.7",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-knowledge",
         "v0": null,
-        "v1": "1.0.4"
+        "v1": "1.0.7"
       },
       "supports": {
         "v0": false,
@@ -2165,14 +2165,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.6",
+          "version": "v1.0.7",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-mcp",
         "v0": null,
-        "v1": "1.0.6"
+        "v1": "1.0.7"
       },
       "supports": {
         "v0": false,
@@ -2227,12 +2227,12 @@
       "git": {
         "repo": "messari/plugin-messari-ai-toolkit",
         "v0": {
-          "version": "v0.0.1",
+          "version": "v0.0.2",
           "branch": null
         },
         "v1": {
           "version": null,
-          "branch": "master"
+          "branch": null
         }
       },
       "npm": {
@@ -2242,7 +2242,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": true
+        "v1": false
       }
     },
     "@elizaos-plugins/plugin-morpheus": {
@@ -3089,14 +3089,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.8",
+          "version": "1.0.9",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.0.8"
+        "v1": "1.0.9"
       },
       "supports": {
         "v0": false,
@@ -3155,7 +3155,7 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.2.1",
           "branch": null
         }
       },
@@ -3309,14 +3309,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.2",
+          "version": "v1.0.4",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-telegram",
         "v0": null,
-        "v1": "1.0.2"
+        "v1": "1.0.4"
       },
       "supports": {
         "v0": false,
@@ -3771,18 +3771,18 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "1.0.11",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-cardano",
         "v0": null,
-        "v1": null
+        "v1": "1.0.11"
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       }
     },
     "@elizaos-plugins/plugin-reveel-payid": {
@@ -3833,7 +3833,7 @@
       "git": {
         "repo": "Kudo-Archi/plugin-kudo",
         "v0": {
-          "version": "0.1.1",
+          "version": "0.1.3",
           "branch": null
         },
         "v1": {
@@ -3843,7 +3843,7 @@
       },
       "npm": {
         "repo": "@kudo-dev/plugin-kudo",
-        "v0": "0.1.1",
+        "v0": "0.1.3",
         "v1": null
       },
       "supports": {
