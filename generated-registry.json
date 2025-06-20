@@ -2294,7 +2294,7 @@
         "repo": "bowtiedbluefin/plugin-morpheus",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
@@ -3829,6 +3829,28 @@
         "v1": false
       }
     },
+    "@elizaos-plugins/plugin-cardano": {
+      "git": {
+        "repo": "relipasoft/plugin-cardano",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "1.0.11",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-cardano",
+        "v0": null,
+        "v1": "1.0.11"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
     "@elizaos-plugins/plugin-reveel-payid": {
       "git": {
         "repo": "r3vl/plugin-reveel-payid",
@@ -3871,6 +3893,28 @@
       "supports": {
         "v0": false,
         "v1": true
+      }
+    },
+    "@kudo-dev/plugin-kudo": {
+      "git": {
+        "repo": "Kudo-Archi/plugin-kudo",
+        "v0": {
+          "version": "0.1.3",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@kudo-dev/plugin-kudo",
+        "v0": "0.1.3",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
       }
     },
     "@mazzz/plugin-elizaos-compchembridge": {
