@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-20T16:02:12.504Z",
+  "lastUpdatedAt": "2025-06-24T08:03:20.894Z",
   "registry": {
     "@elizaos/adapter-mongodb": {
       "git": {
@@ -749,6 +749,28 @@
         "v1": false
       }
     },
+    "@elizaos/plugin-bedrock": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-bedrock",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.1",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-bedrock",
+        "v0": null,
+        "v1": "1.0.1"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
     "@elizaos/plugin-binance": {
       "git": {
         "repo": "elizaos-plugins/plugin-binance",
@@ -911,14 +933,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.11",
+          "version": "1.0.12",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.0.11"
+        "v1": "1.0.12"
       },
       "supports": {
         "v0": true,
@@ -2011,14 +2033,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.7",
+          "version": "1.0.8",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-knowledge",
         "v0": null,
-        "v1": "1.0.7"
+        "v1": "1.0.8"
       },
       "supports": {
         "v0": false,
@@ -2540,7 +2562,7 @@
         },
         "v1": {
           "version": "v1.0.3",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -3133,14 +3155,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.11",
+          "version": "1.0.12",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.0.11"
+        "v1": "1.0.12"
       },
       "supports": {
         "v0": false,
