@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-24T08:03:20.894Z",
+  "lastUpdatedAt": "2025-06-26T05:01:11.503Z",
   "registry": {
     "@elizaos/adapter-mongodb": {
       "git": {
@@ -735,18 +735,18 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.1",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-avalanche",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.1"
       },
       "supports": {
         "v0": true,
-        "v1": false
+        "v1": true
       }
     },
     "@elizaos/plugin-bedrock": {
@@ -1792,7 +1792,7 @@
         },
         "v1": {
           "version": "v1.0.4",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -2027,20 +2027,20 @@
     },
     "@elizaos/plugin-knowledge": {
       "git": {
-        "repo": "elizaos/plugin-knowledge",
+        "repo": "elizaos-plugins/plugin-knowledge",
         "v0": {
           "version": null,
           "branch": null
         },
         "v1": {
-          "version": "1.0.8",
+          "version": "v1.0.10",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-knowledge",
         "v0": null,
-        "v1": "1.0.8"
+        "v1": "1.0.10"
       },
       "supports": {
         "v0": false,
@@ -2100,7 +2100,7 @@
         },
         "v1": {
           "version": "v1.0.2",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -2110,7 +2110,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": true
+        "v1": false
       }
     },
     "@elizaos/plugin-lightlink": {
@@ -2144,7 +2144,7 @@
         },
         "v1": {
           "version": "v1.0.4",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -2649,14 +2649,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.4",
+          "version": "v1.0.6",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-openai",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.4"
+        "v1": "1.0.6"
       },
       "supports": {
         "v0": true,
@@ -2671,14 +2671,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.3",
+          "version": "v1.0.5",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-openrouter",
         "v0": null,
-        "v1": "1.0.3"
+        "v1": "1.0.5"
       },
       "supports": {
         "v0": false,
@@ -3551,14 +3551,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.3",
-          "branch": "1.x"
+          "version": "v1.0.13",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-venice",
         "v0": null,
-        "v1": "1.0.0-beta.41"
+        "v1": "1.0.13"
       },
       "supports": {
         "v0": false,
