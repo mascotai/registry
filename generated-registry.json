@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-26T05:37:48.932Z",
+  "lastUpdatedAt": "2025-06-26T16:57:54.103Z",
   "registry": {
     "@elizaos/adapter-mongodb": {
       "git": {
@@ -559,18 +559,18 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-allora",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": true,
-        "v1": false
+        "v1": true
       }
     },
     "@elizaos/plugin-anthropic": {
@@ -625,18 +625,18 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-aptos",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": true,
-        "v1": false
+        "v1": true
       }
     },
     "@elizaos/plugin-arthera": {
@@ -889,18 +889,18 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bnb",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": true,
-        "v1": false
+        "v1": true
       }
     },
     "@elizaos/plugin-bnv-me-id": {
@@ -933,14 +933,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.12",
+          "version": "1.0.13",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.0.12"
+        "v1": "1.0.13"
       },
       "supports": {
         "v0": true,
@@ -1021,18 +1021,18 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.1",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-coinbase",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.1"
       },
       "supports": {
         "v0": true,
-        "v1": false
+        "v1": true
       }
     },
     "@elizaos/plugin-coingecko": {
@@ -1593,18 +1593,18 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-fuel",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": true,
-        "v1": false
+        "v1": true
       }
     },
     "@elizaos/plugin-genlayer": {
@@ -3155,14 +3155,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.12",
+          "version": "1.0.13",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.0.12"
+        "v1": "1.0.13"
       },
       "supports": {
         "v0": false,
@@ -3529,14 +3529,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.9",
+          "version": "v1.0.13",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-twitter",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.9"
+        "v1": "1.0.13"
       },
       "supports": {
         "v0": true,
