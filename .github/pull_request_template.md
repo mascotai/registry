@@ -1,7 +1,7 @@
 # Registry Update Checklist
 
 Registry:
-- [ ] I've made the organization @eliza-plugins (left side of the colon of JSON entry in index.json)
+- [ ] I've made the left side of the colon of JSON entry in index.json match the potential NPM package name
 - [ ] I've used github not github.com
 - [ ] There is no .git extension
 - [ ] It's placed it alphabetically in the list
@@ -38,7 +38,7 @@ plugin-name/
 - [ ] package.json has a agentConfig like the following
 ```json
 {
-  "name": "@elizaos/plugin-example",
+  "name": "@myNpmOrg/plugin-example",
   "version": "1.0.0",
   "agentConfig": {
     "pluginType": "elizaos:plugin:1.0.0",
