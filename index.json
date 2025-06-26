@@ -13,6 +13,7 @@
     "@elizaos-plugins/adapter-sqljs": "github:elizaos-plugins/adapter-sqljs",
     "@elizaos-plugins/adapter-supabase": "github:elizaos-plugins/adapter-supabase",
     "@elizaos-plugins/client-auto": "github:elizaos-plugins/client-auto",
+    "@elizaos-plugins/client-bonsai": "github:onbonsai/eliza",
     "@elizaos-plugins/client-clara": "github:redstone-finance/client-clara",
     "@elizaos-plugins/client-discord": "github:elizaos-plugins/client-discord",
     "@elizaos-plugins/client-farcaster": "github:elizaos-plugins/client-farcaster",
@@ -133,7 +134,7 @@
     "@elizaos-plugins/plugin-tee": "github:elizaos-plugins/plugin-tee",
     "@elizaos-plugins/plugin-tee-log": "github:elizaos-plugins/plugin-tee-log",
     "@elizaos-plugins/plugin-tee-marlin": "github:elizaos-plugins/plugin-tee-marlin",
-    "@elizaos-plugins/plugin-thirdweb": "github:elizaos-plugins/plugin-thirdweb",    
+    "@elizaos-plugins/plugin-thirdweb": "github:elizaos-plugins/plugin-thirdweb",
     "@elizaos-plugins/plugin-ton": "github:elizaos-plugins/plugin-ton",
     "@elizaos-plugins/plugin-trn": "github:Gen3Games/plugin-trn",
     "@elizaos-plugins/plugin-trustgo": "github:TrustaLabs/plugin-trustgo",
@@ -150,5 +151,6 @@
     "@elizaos-plugins/plugin-zapper": "github:ben-dh3/plugin-zapper",
     "@elizaos-plugins/plugin-zerion": "github:elizaos-plugins/plugin-zerion",
     "@elizaos-plugins/plugin-zksync-era": "github:elizaos-plugins/plugin-zksync-era",
-    "@elizaos-plugins/plugin-zytron": "github:zypher-network/plugin-zytron"
+    "@elizaos-plugins/plugin-zytron": "github:zypher-network/plugin-zytron",
+    "@elizaos-plugins/plugin-bonsai": "github:onbonsai/elizaos-plugin-bonsai"
 }
