@@ -4,6 +4,8 @@ const fs = require("fs");
 const path = require("path");
 const { Octokit } = require("@octokit/rest");
 const semver = require("semver");
+const dotenv = require("dotenv");
+dotenv.config();
 
 // Registry configuration
 const REGISTRY_URL =

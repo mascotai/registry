@@ -95,7 +95,7 @@
     "@elizaos/plugin-irys": "github:elizaos-plugins/plugin-irys",
     "@elizaos/plugin-isaacx": "github:isaacx0/plugin-isaacx",
     "@elizaos/plugin-kaia": "github:kaiachain/kaia-eliza-plugin",
-    "@elizaos/plugin-knowledge": "github:elizaos/plugin-knowledge",
+    "@elizaos/plugin-knowledge": "github:elizaos-plugins/plugin-knowledge",
     "@elizaos/plugin-lensNetwork": "github:elizaos-plugins/plugin-lensNetwork",
     "@elizaos/plugin-letzai": "github:elizaos-plugins/plugin-letzai",
     "@elizaos/plugin-livekit": "github:elizaos-plugins/plugin-livekit",
