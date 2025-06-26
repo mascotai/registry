@@ -1792,7 +1792,7 @@
         },
         "v1": {
           "version": "v1.0.4",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -2100,7 +2100,7 @@
         },
         "v1": {
           "version": "v1.0.2",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -2110,7 +2110,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": true
+        "v1": false
       }
     },
     "@elizaos/plugin-lightlink": {
@@ -2144,7 +2144,7 @@
         },
         "v1": {
           "version": "v1.0.4",
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
