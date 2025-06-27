@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-27T14:18:26.659Z",
+  "lastUpdatedAt": "2025-06-27T14:36:48.115Z",
   "registry": {
     "@elizaos/adapter-mongodb": {
       "git": {
@@ -529,28 +529,6 @@
         "v1": false
       }
     },
-    "@elizaos/plugin-allora": {
-      "git": {
-        "repo": "elizaos-plugins/plugin-allora",
-        "v0": {
-          "version": "0.25.6-alpha.1",
-          "branch": null
-        },
-        "v1": {
-          "version": "v1.0.0",
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "@elizaos/plugin-allora",
-        "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0"
-      },
-      "supports": {
-        "v0": true,
-        "v1": true
-      }
-    },
     "@elizaos/plugin-akash": {
       "git": {
         "repo": "elizaos-plugins/plugin-akash",
@@ -571,6 +549,28 @@
       "supports": {
         "v0": true,
         "v1": false
+      }
+    },
+    "@elizaos/plugin-allora": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-allora",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.0",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-allora",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.0"
+      },
+      "supports": {
+        "v0": true,
+        "v1": true
       }
     },
     "@elizaos/plugin-anthropic": {
