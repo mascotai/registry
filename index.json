@@ -45,7 +45,7 @@
     "@elizaos/plugin-bless": "github:blessnetwork/elizaos-bless-plugin",
     "@elizaos/plugin-bnb": "github:elizaos-plugins/plugin-bnb",
     "@elizaos/plugin-bnv-me-id": "github:brand-new-vision/plugin-bnv-me-id",
-    "@elizaos-plugins/plugin-bonsai": "github:onbonsai/elizaos-plugin-bonsai",
+    "@elizaos/plugin-bonsai": "github:onbonsai/elizaos-plugin-bonsai",
     "@elizaos/plugin-bootstrap": "github:elizaos-plugins/plugin-bootstrap",
     "@elizaos/plugin-browser": "github:elizaos-plugins/plugin-browser",
     "@elizaos/plugin-ccxt": "github:pranavjadhav1363/plugin-ccxt",
