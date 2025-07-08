@@ -1,7 +1,7 @@
 {
-  "lastUpdatedAt": "2025-05-30T02:53:07.614Z",
+  "lastUpdatedAt": "2025-06-27T14:36:48.115Z",
   "registry": {
-    "@elizaos-plugins/adapter-mongodb": {
+    "@elizaos/adapter-mongodb": {
       "git": {
         "repo": "elizaos-plugins/adapter-mongodb",
         "v0": {
@@ -23,7 +23,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/adapter-pglite": {
+    "@elizaos/adapter-pglite": {
       "git": {
         "repo": "elizaos-plugins/adapter-pglite",
         "v0": {
@@ -45,7 +45,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/adapter-postgres": {
+    "@elizaos/adapter-postgres": {
       "git": {
         "repo": "elizaos-plugins/adapter-postgres",
         "v0": {
@@ -67,7 +67,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/adapter-qdrant": {
+    "@elizaos/adapter-qdrant": {
       "git": {
         "repo": "elizaos-plugins/adapter-qdrant",
         "v0": {
@@ -89,7 +89,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/adapter-sqlite": {
+    "@elizaos/adapter-sqlite": {
       "git": {
         "repo": "elizaos-plugins/adapter-sqlite",
         "v0": {
@@ -111,7 +111,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/adapter-sqljs": {
+    "@elizaos/adapter-sqljs": {
       "git": {
         "repo": "elizaos-plugins/adapter-sqljs",
         "v0": {
@@ -133,7 +133,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/adapter-supabase": {
+    "@elizaos/adapter-supabase": {
       "git": {
         "repo": "elizaos-plugins/adapter-supabase",
         "v0": {
@@ -155,7 +155,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/client-auto": {
+    "@elizaos/client-auto": {
       "git": {
         "repo": "elizaos-plugins/client-auto",
         "v0": {
@@ -177,7 +177,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/client-clara": {
+    "@elizaos/client-clara": {
       "git": {
         "repo": "redstone-finance/client-clara",
         "v0": {
@@ -199,7 +199,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/client-discord": {
+    "@elizaos/client-discord": {
       "git": {
         "repo": "elizaos-plugins/client-discord",
         "v0": {
@@ -221,7 +221,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/client-farcaster": {
+    "@elizaos/client-farcaster": {
       "git": {
         "repo": "elizaos-plugins/client-farcaster",
         "v0": {
@@ -243,7 +243,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/client-github": {
+    "@elizaos/client-github": {
       "git": {
         "repo": "elizaos-plugins/client-github",
         "v0": {
@@ -265,7 +265,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/client-lens": {
+    "@elizaos/client-lens": {
       "git": {
         "repo": "elizaos-plugins/client-lens",
         "v0": {
@@ -287,7 +287,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/client-slack": {
+    "@elizaos/client-slack": {
       "git": {
         "repo": "elizaos-plugins/client-slack",
         "v0": {
@@ -309,7 +309,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/client-tako": {
+    "@elizaos/client-tako": {
       "git": {
         "repo": "takoprotocol/client-tako",
         "v0": {
@@ -331,7 +331,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/client-telegram": {
+    "@elizaos/client-telegram": {
       "git": {
         "repo": "elizaos-plugins/client-telegram",
         "v0": {
@@ -353,7 +353,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/client-twitter": {
+    "@elizaos/client-twitter": {
       "git": {
         "repo": "elizaos-plugins/client-twitter",
         "v0": {
@@ -375,9 +375,9 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/client-twitter-api-access": {
+    "@elizaos/client-twitter-api-access": {
       "git": {
-        "repo": "notorious-d-e-v/client-twitter-api-access",
+        "repo": "payainetwork/client-twitter-api-access",
         "v0": {
           "version": null,
           "branch": null
@@ -397,7 +397,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/client-wechat": {
+    "@elizaos/client-wechat": {
       "git": {
         "repo": "aiqubits/client-wechat",
         "v0": {
@@ -419,7 +419,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/client-xmtp": {
+    "@elizaos/client-xmtp": {
       "git": {
         "repo": "ephemeraHQ/client-xmtp",
         "v0": {
@@ -441,7 +441,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-0g": {
+    "@elizaos/plugin-0g": {
       "git": {
         "repo": "elizaos-plugins/plugin-0g",
         "v0": {
@@ -463,7 +463,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-3d-generation": {
+    "@elizaos/plugin-3d-generation": {
       "git": {
         "repo": "elizaos-plugins/plugin-3d-generation",
         "v0": {
@@ -485,7 +485,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-ATTPs": {
+    "@elizaos/plugin-ATTPs": {
       "git": {
         "repo": "APRO-com/plugin-ATTPs",
         "v0": {
@@ -507,7 +507,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-abstract": {
+    "@elizaos/plugin-abstract": {
       "git": {
         "repo": "elizaos-plugins/plugin-abstract",
         "v0": {
@@ -529,7 +529,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-akash": {
+    "@elizaos/plugin-akash": {
       "git": {
         "repo": "elizaos-plugins/plugin-akash",
         "v0": {
@@ -551,7 +551,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-allora": {
+    "@elizaos/plugin-allora": {
       "git": {
         "repo": "elizaos-plugins/plugin-allora",
         "v0": {
@@ -559,21 +559,21 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-allora",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": true,
-        "v1": false
+        "v1": true
       }
     },
-    "@elizaos-plugins/plugin-anthropic": {
+    "@elizaos/plugin-anthropic": {
       "git": {
         "repo": "elizaos-plugins/plugin-anthropic",
         "v0": {
@@ -581,21 +581,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.53",
+          "version": "v1.0.3",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-anthropic",
         "v0": null,
-        "v1": "1.0.0-beta.53"
+        "v1": "1.0.3"
       },
       "supports": {
         "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-anyone": {
+    "@elizaos/plugin-anyone": {
       "git": {
         "repo": "elizaos-plugins/plugin-anyone",
         "v0": {
@@ -617,7 +617,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-aptos": {
+    "@elizaos/plugin-aptos": {
       "git": {
         "repo": "elizaos-plugins/plugin-aptos",
         "v0": {
@@ -625,21 +625,21 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-aptos",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": true,
-        "v1": false
+        "v1": true
       }
     },
-    "@elizaos-plugins/plugin-arthera": {
+    "@elizaos/plugin-arthera": {
       "git": {
         "repo": "elizaos-plugins/plugin-arthera",
         "v0": {
@@ -661,7 +661,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-asterai": {
+    "@elizaos/plugin-asterai": {
       "git": {
         "repo": "elizaos-plugins/plugin-asterai",
         "v0": {
@@ -683,7 +683,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-autonome": {
+    "@elizaos/plugin-autonome": {
       "git": {
         "repo": "elizaos-plugins/plugin-autonome",
         "v0": {
@@ -705,7 +705,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-avail": {
+    "@elizaos/plugin-avail": {
       "git": {
         "repo": "elizaos-plugins/plugin-avail",
         "v0": {
@@ -727,7 +727,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-avalanche": {
+    "@elizaos/plugin-avalanche": {
       "git": {
         "repo": "elizaos-plugins/plugin-avalanche",
         "v0": {
@@ -735,21 +735,43 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.1",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-avalanche",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.1"
       },
       "supports": {
         "v0": true,
-        "v1": false
+        "v1": true
       }
     },
-    "@elizaos-plugins/plugin-binance": {
+    "@elizaos/plugin-bedrock": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-bedrock",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.1",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-bedrock",
+        "v0": null,
+        "v1": "1.0.1"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos/plugin-binance": {
       "git": {
         "repo": "elizaos-plugins/plugin-binance",
         "v0": {
@@ -771,7 +793,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-bink": {
+    "@elizaos/plugin-bink": {
       "git": {
         "repo": "Bink-AI/elizaos-plugin-binkai",
         "v0": {
@@ -793,7 +815,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-bioagent": {
+    "@elizaos/plugin-bioagent": {
       "git": {
         "repo": "bio-xyz/plugin-bioagent",
         "v0": {
@@ -815,7 +837,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-bitquery": {
+    "@elizaos/plugin-bitquery": {
       "git": {
         "repo": "ChuXo/plugin-bitquery",
         "v0": {
@@ -837,7 +859,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-bless": {
+    "@elizaos/plugin-bless": {
       "git": {
         "repo": "blessnetwork/elizaos-bless-plugin",
         "v0": {
@@ -859,7 +881,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-bnb": {
+    "@elizaos/plugin-bnb": {
       "git": {
         "repo": "elizaos-plugins/plugin-bnb",
         "v0": {
@@ -867,21 +889,21 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bnb",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": true,
-        "v1": false
+        "v1": true
       }
     },
-    "@elizaos-plugins/plugin-bnv-me-id": {
+    "@elizaos/plugin-bnv-me-id": {
       "git": {
         "repo": "brand-new-vision/plugin-bnv-me-id",
         "v0": {
@@ -903,7 +925,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-bootstrap": {
+    "@elizaos/plugin-bootstrap": {
       "git": {
         "repo": "elizaos-plugins/plugin-bootstrap",
         "v0": {
@@ -911,21 +933,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.76",
+          "version": "1.0.14",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.0.0-beta.76"
+        "v1": "1.0.14"
       },
       "supports": {
         "v0": true,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-browser": {
+    "@elizaos/plugin-browser": {
       "git": {
         "repo": "elizaos-plugins/plugin-browser",
         "v0": {
@@ -933,21 +955,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.41",
-          "branch": null
+          "version": "v1.0.3",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-browser",
         "v0": null,
-        "v1": "1.0.0-beta.41"
+        "v1": "1.0.3"
       },
       "supports": {
         "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-ccxt": {
+    "@elizaos/plugin-ccxt": {
       "git": {
         "repo": "pranavjadhav1363/plugin-ccxt",
         "v0": {
@@ -969,7 +991,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-clara-twitter": {
+    "@elizaos/plugin-clara-twitter": {
       "git": {
         "repo": "warp-contracts/plugin-clara-twitter",
         "v0": {
@@ -991,7 +1013,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-coinbase": {
+    "@elizaos/plugin-coinbase": {
       "git": {
         "repo": "elizaos-plugins/plugin-coinbase",
         "v0": {
@@ -999,21 +1021,21 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.1",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-coinbase",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.1"
       },
       "supports": {
         "v0": true,
-        "v1": false
+        "v1": true
       }
     },
-    "@elizaos-plugins/plugin-coingecko": {
+    "@elizaos/plugin-coingecko": {
       "git": {
         "repo": "elizaos-plugins/plugin-coingecko",
         "v0": {
@@ -1035,7 +1057,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-coinmarketcap": {
+    "@elizaos/plugin-coinmarketcap": {
       "git": {
         "repo": "elizaos-plugins/plugin-coinmarketcap",
         "v0": {
@@ -1057,7 +1079,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-compass": {
+    "@elizaos/plugin-compass": {
       "git": {
         "repo": "CompassLabs/plugin-compass",
         "v0": {
@@ -1079,7 +1101,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-computer-use": {
+    "@elizaos/plugin-computer-use": {
       "git": {
         "repo": "amit0365/plugin-computer-use",
         "v0": {
@@ -1101,7 +1123,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-conflux": {
+    "@elizaos/plugin-conflux": {
       "git": {
         "repo": "elizaos-plugins/plugin-conflux",
         "v0": {
@@ -1123,7 +1145,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-cosmos": {
+    "@elizaos/plugin-cosmos": {
       "git": {
         "repo": "elizaos-plugins/plugin-cosmos",
         "v0": {
@@ -1145,7 +1167,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-cronoszkevm": {
+    "@elizaos/plugin-cronoszkevm": {
       "git": {
         "repo": "elizaos-plugins/plugin-cronoszkevm",
         "v0": {
@@ -1167,7 +1189,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-d.a.t.a": {
+    "@elizaos/plugin-d.a.t.a": {
       "git": {
         "repo": "carv-protocol/plugin-d.a.t.a",
         "v0": {
@@ -1189,7 +1211,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-dcap": {
+    "@elizaos/plugin-dcap": {
       "git": {
         "repo": "elizaos-plugins/plugin-dcap",
         "v0": {
@@ -1211,7 +1233,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-debridge": {
+    "@elizaos/plugin-debridge": {
       "git": {
         "repo": "gabrielantonyxaviour/eliza-plugin-debridge",
         "v0": {
@@ -1233,7 +1255,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-depin": {
+    "@elizaos/plugin-depin": {
       "git": {
         "repo": "elizaos-plugins/plugin-depin",
         "v0": {
@@ -1255,7 +1277,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-dexpaprika": {
+    "@elizaos/plugin-dexpaprika": {
       "git": {
         "repo": "donbagger/plugin-dexpaprika",
         "v0": {
@@ -1277,7 +1299,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-di": {
+    "@elizaos/plugin-di": {
       "git": {
         "repo": "fixes-world/plugin-di",
         "v0": {
@@ -1299,7 +1321,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-discord": {
+    "@elizaos/plugin-discord": {
       "git": {
         "repo": "elizaos-plugins/plugin-discord",
         "v0": {
@@ -1307,21 +1329,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.56",
-          "branch": "1.x"
+          "version": "v1.0.10",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-discord",
         "v0": null,
-        "v1": "1.0.0-beta.56"
+        "v1": "1.0.10"
       },
       "supports": {
         "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-echochambers": {
+    "@elizaos/plugin-echochambers": {
       "git": {
         "repo": "elizaos-plugins/plugin-echochambers",
         "v0": {
@@ -1343,7 +1365,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-edwin": {
+    "@elizaos/plugin-edwin": {
       "git": {
         "repo": "elizaos-plugins/plugin-edwin",
         "v0": {
@@ -1365,7 +1387,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-elevenlabs": {
+    "@elizaos/plugin-elevenlabs": {
       "git": {
         "repo": "elizaos-plugins/plugin-elevenlabs",
         "v0": {
@@ -1373,21 +1395,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.52",
-          "branch": "1.x"
+          "version": "v1.0.5",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-elevenlabs",
         "v0": null,
-        "v1": "1.0.0-beta.52"
+        "v1": "1.0.5"
       },
       "supports": {
         "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-enso": {
+    "@elizaos/plugin-enso": {
       "git": {
         "repo": "EnsoBuild/plugin-enso",
         "v0": {
@@ -1409,7 +1431,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-evm": {
+    "@elizaos/plugin-evm": {
       "git": {
         "repo": "elizaos-plugins/plugin-evm",
         "v0": {
@@ -1417,21 +1439,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.53",
+          "version": "v1.0.12",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-evm",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0-beta.53"
+        "v1": "1.0.12"
       },
       "supports": {
         "v0": true,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-executor": {
+    "@elizaos/plugin-executor": {
       "git": {
         "repo": "t3rn/plugin-t3rn-executor",
         "v0": {
@@ -1453,7 +1475,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-farcaster": {
+    "@elizaos/plugin-farcaster": {
       "git": {
         "repo": "elizaos-plugins/plugin-farcaster",
         "v0": {
@@ -1461,21 +1483,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.54",
-          "branch": "1.x"
+          "version": "v1.0.5",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-farcaster",
         "v0": null,
-        "v1": "1.0.0-beta.54"
+        "v1": "1.0.5"
       },
       "supports": {
         "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-ferePro": {
+    "@elizaos/plugin-ferePro": {
       "git": {
         "repo": "elizaos-plugins/plugin-ferePro",
         "v0": {
@@ -1497,7 +1519,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-firecrawl": {
+    "@elizaos/plugin-firecrawl": {
       "git": {
         "repo": "tobySolutions/plugin-firecrawl",
         "v0": {
@@ -1519,7 +1541,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-flow": {
+    "@elizaos/plugin-flow": {
       "git": {
         "repo": "fixes-world/plugin-flow",
         "v0": {
@@ -1541,7 +1563,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-flow-advanced": {
+    "@elizaos/plugin-flow-advanced": {
       "git": {
         "repo": "fixes-world/plugin-flow-advanced",
         "v0": {
@@ -1563,7 +1585,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-fuel": {
+    "@elizaos/plugin-fuel": {
       "git": {
         "repo": "elizaos-plugins/plugin-fuel",
         "v0": {
@@ -1571,21 +1593,21 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-fuel",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0"
       },
       "supports": {
         "v0": true,
-        "v1": false
+        "v1": true
       }
     },
-    "@elizaos-plugins/plugin-genlayer": {
+    "@elizaos/plugin-genlayer": {
       "git": {
         "repo": "elizaos-plugins/plugin-genlayer",
         "v0": {
@@ -1607,7 +1629,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-gigbot": {
+    "@elizaos/plugin-gigbot": {
       "git": {
         "repo": "PaymagicXYZ/plugin-gigbot",
         "v0": {
@@ -1629,7 +1651,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-giphy": {
+    "@elizaos/plugin-giphy": {
       "git": {
         "repo": "elizaos-plugins/plugin-giphy",
         "v0": {
@@ -1651,7 +1673,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-gitbook": {
+    "@elizaos/plugin-gitbook": {
       "git": {
         "repo": "elizaos-plugins/plugin-gitbook",
         "v0": {
@@ -1673,7 +1695,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-goat": {
+    "@elizaos/plugin-goat": {
       "git": {
         "repo": "elizaos-plugins/plugin-goat",
         "v0": {
@@ -1695,7 +1717,29 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-goplus": {
+    "@elizaos/plugin-google-genai": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-google-genai",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.3",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-google-genai",
+        "v0": null,
+        "v1": "1.0.0"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos/plugin-goplus": {
       "git": {
         "repo": "elizaos-plugins/plugin-goplus",
         "v0": {
@@ -1703,21 +1747,21 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.2",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-goplus",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.2"
       },
       "supports": {
         "v0": true,
-        "v1": false
+        "v1": true
       }
     },
-    "@elizaos-plugins/plugin-grix": {
+    "@elizaos/plugin-grix": {
       "git": {
         "repo": "grixprotocol/plugin-grix",
         "v0": {
@@ -1739,7 +1783,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-groq": {
+    "@elizaos/plugin-groq": {
       "git": {
         "repo": "elizaos-plugins/plugin-groq",
         "v0": {
@@ -1747,21 +1791,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.52",
+          "version": "v1.0.4",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-groq",
         "v0": null,
-        "v1": "1.0.0-beta.52"
+        "v1": "1.0.4"
       },
       "supports": {
         "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-hedera": {
+    "@elizaos/plugin-hedera": {
       "git": {
         "repo": "hedera-dev/plugin-hedera",
         "v0": {
@@ -1783,7 +1827,29 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-hyperliquid": {
+    "@elizaos/plugin-holoworld": {
+      "git": {
+        "repo": "mcp-dao/plugin-holoworld",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-holoworld",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos/plugin-hyperliquid": {
       "git": {
         "repo": "elizaos-plugins/plugin-hyperliquid",
         "v0": {
@@ -1805,7 +1871,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-icp": {
+    "@elizaos/plugin-icp": {
       "git": {
         "repo": "elizaos-plugins/plugin-icp",
         "v0": {
@@ -1827,7 +1893,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-iexec": {
+    "@elizaos/plugin-iexec": {
       "git": {
         "repo": "iExecBlockchainComputing/plugin-iexec",
         "v0": {
@@ -1849,7 +1915,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-image-generation": {
+    "@elizaos/plugin-image-generation": {
       "git": {
         "repo": "elizaos-plugins/plugin-image-generation",
         "v0": {
@@ -1871,7 +1937,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-intiface": {
+    "@elizaos/plugin-intiface": {
       "git": {
         "repo": "elizaos-plugins/plugin-intiface",
         "v0": {
@@ -1893,7 +1959,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-irys": {
+    "@elizaos/plugin-irys": {
       "git": {
         "repo": "elizaos-plugins/plugin-irys",
         "v0": {
@@ -1915,7 +1981,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-isaacx": {
+    "@elizaos/plugin-isaacx": {
       "git": {
         "repo": "isaacx0/plugin-isaacx",
         "v0": {
@@ -1937,7 +2003,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-kaia": {
+    "@elizaos/plugin-kaia": {
       "git": {
         "repo": "kaiachain/kaia-eliza-plugin",
         "v0": {
@@ -1959,7 +2025,29 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-lensNetwork": {
+    "@elizaos/plugin-knowledge": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-knowledge",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.10",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-knowledge",
+        "v0": null,
+        "v1": "1.0.10"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos/plugin-lensNetwork": {
       "git": {
         "repo": "elizaos-plugins/plugin-lensNetwork",
         "v0": {
@@ -1981,7 +2069,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-letzai": {
+    "@elizaos/plugin-letzai": {
       "git": {
         "repo": "elizaos-plugins/plugin-letzai",
         "v0": {
@@ -2003,7 +2091,29 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-lightlink": {
+    "@elizaos/plugin-livekit": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-livekit",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.2",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-livekit",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos/plugin-lightlink": {
       "git": {
         "repo": "lightlink-network/plugin-lightlink",
         "v0": {
@@ -2025,7 +2135,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-local-ai": {
+    "@elizaos/plugin-local-ai": {
       "git": {
         "repo": "elizaos-plugins/plugin-local-ai",
         "v0": {
@@ -2033,21 +2143,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.72",
+          "version": "v1.0.5",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-local-ai",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0-beta.72"
+        "v1": "1.0.5"
       },
       "supports": {
         "v0": true,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-massa": {
+    "@elizaos/plugin-massa": {
       "git": {
         "repo": "elizaos-plugins/plugin-massa",
         "v0": {
@@ -2069,7 +2179,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-mbd-farcaster": {
+    "@elizaos/plugin-mbd-farcaster": {
       "git": {
         "repo": "developerfred/mbd-farcaster",
         "v0": {
@@ -2091,7 +2201,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-mcp": {
+    "@elizaos/plugin-mcp": {
       "git": {
         "repo": "elizaos-plugins/plugin-mcp",
         "v0": {
@@ -2099,21 +2209,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.55",
+          "version": "v1.0.7",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-mcp",
         "v0": null,
-        "v1": "1.0.0-beta.55"
+        "v1": "1.0.7"
       },
       "supports": {
         "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-membase": {
+    "@elizaos/plugin-membase": {
       "git": {
         "repo": "unibaseio/plugin-membase",
         "v0": {
@@ -2135,7 +2245,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-merkle": {
+    "@elizaos/plugin-merkle": {
       "git": {
         "repo": "merkle-trade/merkle-eliza-plugin",
         "v0": {
@@ -2157,16 +2267,16 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-messari-ai-toolkit": {
+    "@elizaos/plugin-messari-ai-toolkit": {
       "git": {
         "repo": "messari/plugin-messari-ai-toolkit",
         "v0": {
-          "version": "0.0.1",
+          "version": "v0.0.2",
           "branch": null
         },
         "v1": {
           "version": null,
-          "branch": "master"
+          "branch": null
         }
       },
       "npm": {
@@ -2176,15 +2286,15 @@
       },
       "supports": {
         "v0": false,
-        "v1": true
+        "v1": false
       }
     },
-    "@elizaos-plugins/plugin-morpheus": {
+    "@elizaos/plugin-morpheus": {
       "git": {
         "repo": "bowtiedbluefin/plugin-morpheus",
         "v0": {
           "version": null,
-          "branch": "main"
+          "branch": null
         },
         "v1": {
           "version": null,
@@ -2197,11 +2307,11 @@
         "v1": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-movement": {
+    "@elizaos/plugin-movement": {
       "git": {
         "repo": "elizaos-plugins/plugin-movement",
         "v0": {
@@ -2223,7 +2333,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-multichain": {
+    "@elizaos/plugin-multichain": {
       "git": {
         "repo": "near-agent/elizaos-plugin-multichain",
         "v0": {
@@ -2245,7 +2355,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-multiversx": {
+    "@elizaos/plugin-multiversx": {
       "git": {
         "repo": "elizaos-plugins/plugin-multiversx",
         "v0": {
@@ -2267,7 +2377,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-near": {
+    "@elizaos/plugin-near": {
       "git": {
         "repo": "elizaos-plugins/plugin-near",
         "v0": {
@@ -2289,7 +2399,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-nft-generation": {
+    "@elizaos/plugin-nft-generation": {
       "git": {
         "repo": "elizaos-plugins/plugin-nft-generation",
         "v0": {
@@ -2311,7 +2421,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-nkn": {
+    "@elizaos/plugin-nkn": {
       "git": {
         "repo": "nknorg/eliza-plugin-nkn",
         "v0": {
@@ -2333,7 +2443,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-node": {
+    "@elizaos/plugin-node": {
       "git": {
         "repo": "elizaos-plugins/plugin-node",
         "v0": {
@@ -2355,7 +2465,7 @@
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-notion": {
+    "@elizaos/plugin-notion": {
       "git": {
         "repo": "tskoyo/plugin-notion",
         "v0": {
@@ -2377,7 +2487,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-obsidian": {
+    "@elizaos/plugin-obsidian": {
       "git": {
         "repo": "elizaos-plugins/plugin-obsidian",
         "v0": {
@@ -2399,7 +2509,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-okto": {
+    "@elizaos/plugin-okto": {
       "git": {
         "repo": "okto-hq/eliza-plugin",
         "v0": {
@@ -2421,7 +2531,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-okx": {
+    "@elizaos/plugin-okx": {
       "git": {
         "repo": "elizaos-plugins/plugin-okx",
         "v0": {
@@ -2443,7 +2553,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-ollama": {
+    "@elizaos/plugin-ollama": {
       "git": {
         "repo": "elizaos-plugins/plugin-ollama",
         "v0": {
@@ -2451,21 +2561,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.55",
+          "version": "v1.0.7",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-ollama",
         "v0": null,
-        "v1": "1.0.0-beta.55"
+        "v1": "1.0.7"
       },
       "supports": {
         "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-omniflix": {
+    "@elizaos/plugin-omniflix": {
       "git": {
         "repo": "elizaos-plugins/plugin-omniflix",
         "v0": {
@@ -2487,7 +2597,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-opacity": {
+    "@elizaos/plugin-opacity": {
       "git": {
         "repo": "elizaos-plugins/plugin-opacity",
         "v0": {
@@ -2509,7 +2619,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-open-weather": {
+    "@elizaos/plugin-open-weather": {
       "git": {
         "repo": "elizaos-plugins/plugin-open-weather",
         "v0": {
@@ -2531,7 +2641,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-openai": {
+    "@elizaos/plugin-openai": {
       "git": {
         "repo": "elizaos-plugins/plugin-openai",
         "v0": {
@@ -2539,21 +2649,43 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.73",
+          "version": "v1.0.6",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-openai",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0-beta.73"
+        "v1": "1.0.6"
       },
       "supports": {
         "v0": true,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-orderly": {
+    "@elizaos/plugin-openrouter": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-openrouter",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.5",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-openrouter",
+        "v0": null,
+        "v1": "1.0.5"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos/plugin-orderly": {
       "git": {
         "repo": "orderlynetwork/plugin-orderly",
         "v0": {
@@ -2575,7 +2707,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-para": {
+    "@elizaos/plugin-para": {
       "git": {
         "repo": "aipop-fun/plugin-para",
         "v0": {
@@ -2597,9 +2729,9 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-payai": {
+    "@elizaos/plugin-payai": {
       "git": {
-        "repo": "notorious-d-e-v/plugin-payai",
+        "repo": "payainetwork/plugin-payai",
         "v0": {
           "version": null,
           "branch": null
@@ -2619,7 +2751,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-pdf": {
+    "@elizaos/plugin-pdf": {
       "git": {
         "repo": "elizaos-plugins/plugin-pdf",
         "v0": {
@@ -2627,21 +2759,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.56",
+          "version": "v1.0.1",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-pdf",
         "v0": null,
-        "v1": "1.0.0-beta.56"
+        "v1": "1.0.1"
       },
       "supports": {
         "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-primus": {
+    "@elizaos/plugin-primus": {
       "git": {
         "repo": "elizaos-plugins/plugin-primus",
         "v0": {
@@ -2663,7 +2795,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-proof-of-agent": {
+    "@elizaos/plugin-proof-of-agent": {
       "git": {
         "repo": "automata-network/elizaos-plugin-proof-of-agent",
         "v0": {
@@ -2685,7 +2817,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-pundiai-dataset": {
+    "@elizaos/plugin-pundiai-dataset": {
       "git": {
         "repo": "PundiAI/plugin-pundiai-dataset",
         "v0": {
@@ -2707,7 +2839,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-quai": {
+    "@elizaos/plugin-quai": {
       "git": {
         "repo": "elizaos-plugins/plugin-quai",
         "v0": {
@@ -2729,7 +2861,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-rabbi-trader": {
+    "@elizaos/plugin-rabbi-trader": {
       "git": {
         "repo": "elizaos-plugins/plugin-rabbi-trader",
         "v0": {
@@ -2751,11 +2883,11 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-raiinmaker": {
+    "@elizaos/plugin-raiinmaker": {
       "git": {
         "repo": "Coiin-Blockchain/plugin-raiinmaker",
         "v0": {
-          "version": "0.1.0",
+          "version": "v0.1.0",
           "branch": null
         },
         "v1": {
@@ -2773,7 +2905,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-recall": {
+    "@elizaos/plugin-recall": {
       "git": {
         "repo": "recallnet/plugin-recall",
         "v0": {
@@ -2795,7 +2927,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-redpill": {
+    "@elizaos/plugin-redpill": {
       "git": {
         "repo": "elizaos-plugins/plugin-redpill",
         "v0": {
@@ -2803,21 +2935,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.43",
+          "version": "v1.0.3",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-redpill",
         "v0": null,
-        "v1": "1.0.0-beta.43"
+        "v1": "1.0.3"
       },
       "supports": {
         "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-rss3": {
+    "@elizaos/plugin-rss3": {
       "git": {
         "repo": "rss3-network/elizaos-plugin-rss3",
         "v0": {
@@ -2839,7 +2971,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-safe": {
+    "@elizaos/plugin-safe": {
       "git": {
         "repo": "5afe/plugin-safe",
         "v0": {
@@ -2861,7 +2993,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-sei": {
+    "@elizaos/plugin-sei": {
       "git": {
         "repo": "elizaos-plugins/plugin-sei",
         "v0": {
@@ -2883,7 +3015,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-sgx": {
+    "@elizaos/plugin-sgx": {
       "git": {
         "repo": "elizaos-plugins/plugin-sgx",
         "v0": {
@@ -2905,7 +3037,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-siwe": {
+    "@elizaos/plugin-siwe": {
       "git": {
         "repo": "DimaKush/plugin-siwe",
         "v0": {
@@ -2927,7 +3059,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-solana": {
+    "@elizaos/plugin-solana": {
       "git": {
         "repo": "elizaos-plugins/plugin-solana",
         "v0": {
@@ -2935,21 +3067,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.53",
+          "version": "v1.0.3",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-solana",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0-beta.53"
+        "v1": "1.0.3"
       },
       "supports": {
         "v0": true,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-solana-agent-kit": {
+    "@elizaos/plugin-solana-agent-kit": {
       "git": {
         "repo": "elizaos-plugins/plugin-solana-agent-kit",
         "v0": {
@@ -2971,7 +3103,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-sonic": {
+    "@elizaos/plugin-sonic": {
       "git": {
         "repo": "thopatevijay/plugin-sonic",
         "v0": {
@@ -2993,7 +3125,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-spheron": {
+    "@elizaos/plugin-spheron": {
       "git": {
         "repo": "elizaos-plugins/plugin-spheron",
         "v0": {
@@ -3015,7 +3147,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-sql": {
+    "@elizaos/plugin-sql": {
       "git": {
         "repo": "elizaos-plugins/plugin-sql",
         "v0": {
@@ -3023,21 +3155,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.76",
+          "version": "1.0.14",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.0.0-beta.76"
+        "v1": "1.0.14"
       },
       "supports": {
         "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-stargaze": {
+    "@elizaos/plugin-stargaze": {
       "git": {
         "repo": "elizaos-plugins/plugin-stargaze",
         "v0": {
@@ -3059,7 +3191,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-starknet": {
+    "@elizaos/plugin-starknet": {
       "git": {
         "repo": "elizaos-plugins/plugin-starknet",
         "v0": {
@@ -3081,7 +3213,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-storacha": {
+    "@elizaos/plugin-storacha": {
       "git": {
         "repo": "storacha/elizaos-plugin",
         "v0": {
@@ -3089,7 +3221,7 @@
           "branch": null
         },
         "v1": {
-          "version": "1.2.1",
+          "version": "v1.2.1",
           "branch": null
         }
       },
@@ -3103,7 +3235,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-storage-s3": {
+    "@elizaos/plugin-storage-s3": {
       "git": {
         "repo": "elizaos-plugins/plugin-storage-s3",
         "v0": {
@@ -3111,21 +3243,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.41",
+          "version": "v1.0.3",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-storage-s3",
         "v0": null,
-        "v1": "1.0.0-beta.41"
+        "v1": "1.0.3"
       },
       "supports": {
         "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-story": {
+    "@elizaos/plugin-story": {
       "git": {
         "repo": "elizaos-plugins/plugin-story",
         "v0": {
@@ -3147,7 +3279,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-sui": {
+    "@elizaos/plugin-sui": {
       "git": {
         "repo": "elizaos-plugins/plugin-sui",
         "v0": {
@@ -3169,7 +3301,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-tee": {
+    "@elizaos/plugin-tee": {
       "git": {
         "repo": "elizaos-plugins/plugin-tee",
         "v0": {
@@ -3177,21 +3309,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.80",
+          "version": "v1.0.2",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-tee",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0-beta.80"
+        "v1": "1.0.2"
       },
       "supports": {
         "v0": true,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-tee-log": {
+    "@elizaos/plugin-tee-log": {
       "git": {
         "repo": "elizaos-plugins/plugin-tee-log",
         "v0": {
@@ -3213,7 +3345,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-tee-marlin": {
+    "@elizaos/plugin-tee-marlin": {
       "git": {
         "repo": "elizaos-plugins/plugin-tee-marlin",
         "v0": {
@@ -3235,7 +3367,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-telegram": {
+    "@elizaos/plugin-telegram": {
       "git": {
         "repo": "elizaos-plugins/plugin-telegram",
         "v0": {
@@ -3243,21 +3375,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.54",
+          "version": "v1.0.4",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-telegram",
         "v0": null,
-        "v1": "1.0.0-beta.54"
+        "v1": "1.0.4"
       },
       "supports": {
         "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-thirdweb": {
+    "@elizaos/plugin-thirdweb": {
       "git": {
         "repo": "elizaos-plugins/plugin-thirdweb",
         "v0": {
@@ -3279,7 +3411,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-ton": {
+    "@elizaos/plugin-ton": {
       "git": {
         "repo": "elizaos-plugins/plugin-ton",
         "v0": {
@@ -3301,7 +3433,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-trn": {
+    "@elizaos/plugin-trn": {
       "git": {
         "repo": "Gen3Games/plugin-trn",
         "v0": {
@@ -3323,7 +3455,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-trustgo": {
+    "@elizaos/plugin-trustgo": {
       "git": {
         "repo": "TrustaLabs/plugin-trustgo",
         "v0": {
@@ -3345,7 +3477,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-tts": {
+    "@elizaos/plugin-tts": {
       "git": {
         "repo": "elizaos-plugins/plugin-tts",
         "v0": {
@@ -3367,7 +3499,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-twilio": {
+    "@elizaos/plugin-twilio": {
       "git": {
         "repo": "boolkeys/plugin-twilio",
         "v0": {
@@ -3389,7 +3521,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-twitter": {
+    "@elizaos/plugin-twitter": {
       "git": {
         "repo": "elizaos-plugins/plugin-twitter",
         "v0": {
@@ -3397,21 +3529,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.56",
-          "branch": "1.x"
+          "version": "v1.0.13",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-twitter",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0-beta.56"
+        "v1": "1.0.13"
       },
       "supports": {
         "v0": true,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-venice": {
+    "@elizaos/plugin-venice": {
       "git": {
         "repo": "elizaos-plugins/plugin-venice",
         "v0": {
@@ -3419,21 +3551,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.41",
-          "branch": "1.x"
+          "version": "v1.0.13",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-venice",
         "v0": null,
-        "v1": "1.0.0-beta.41"
+        "v1": "1.0.13"
       },
       "supports": {
         "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-viction": {
+    "@elizaos/plugin-viction": {
       "git": {
         "repo": "BuildOnViction/plugin-viction",
         "v0": {
@@ -3455,7 +3587,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-video-generation": {
+    "@elizaos/plugin-video-generation": {
       "git": {
         "repo": "elizaos-plugins/plugin-video-generation",
         "v0": {
@@ -3477,7 +3609,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-video-understanding": {
+    "@elizaos/plugin-video-understanding": {
       "git": {
         "repo": "elizaos-plugins/plugin-video-understanding",
         "v0": {
@@ -3485,21 +3617,21 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0-beta.40",
+          "version": "v1.0.2",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-video-understanding",
         "v0": null,
-        "v1": "1.0.0-beta.40"
+        "v1": "1.0.2"
       },
       "supports": {
         "v0": false,
         "v1": true
       }
     },
-    "@elizaos-plugins/plugin-web-search": {
+    "@elizaos/plugin-web-search": {
       "git": {
         "repo": "elizaos-plugins/plugin-web-search",
         "v0": {
@@ -3521,7 +3653,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-whatsapp": {
+    "@elizaos/plugin-whatsapp": {
       "git": {
         "repo": "elizaos-plugins/plugin-whatsapp",
         "v0": {
@@ -3543,7 +3675,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-xdc": {
+    "@elizaos/plugin-xdc": {
       "git": {
         "repo": "xdc-community/plugin-xdc",
         "v0": {
@@ -3565,7 +3697,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-youtube-to-text": {
+    "@elizaos/plugin-youtube-to-text": {
       "git": {
         "repo": "wellaios/plugin-youtube-to-text",
         "v0": {
@@ -3587,7 +3719,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-youtube-transcription": {
+    "@elizaos/plugin-youtube-transcription": {
       "git": {
         "repo": "prismadic/elizaos-plugin-youtube-transcription",
         "v0": {
@@ -3609,7 +3741,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-zapper": {
+    "@elizaos/plugin-zapper": {
       "git": {
         "repo": "ben-dh3/plugin-zapper",
         "v0": {
@@ -3631,7 +3763,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-zerion": {
+    "@elizaos/plugin-zerion": {
       "git": {
         "repo": "elizaos-plugins/plugin-zerion",
         "v0": {
@@ -3653,7 +3785,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-zksync-era": {
+    "@elizaos/plugin-zksync-era": {
       "git": {
         "repo": "elizaos-plugins/plugin-zksync-era",
         "v0": {
@@ -3675,7 +3807,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-zytron": {
+    "@elizaos/plugin-zytron": {
       "git": {
         "repo": "zypher-network/plugin-zytron",
         "v0": {
@@ -3697,7 +3829,7 @@
         "v1": false
       }
     },
-    "@elizaos-plugins/plugin-cardano": {
+    "@elizaos/plugin-cardano": {
       "git": {
         "repo": "relipasoft/plugin-cardano",
         "v0": {
@@ -3705,21 +3837,21 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "1.0.11",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-cardano",
         "v0": null,
-        "v1": null
+        "v1": "1.0.11"
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       }
     },
-    "@elizaos-plugins/plugin-reveel-payid": {
+    "@elizaos/plugin-reveel-payid": {
       "git": {
         "repo": "r3vl/plugin-reveel-payid",
         "v0": {
@@ -3738,6 +3870,72 @@
       },
       "supports": {
         "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos/plugin-xmtp": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-xmtp",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.4",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-xmtp",
+        "v0": null,
+        "v1": "1.0.4"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@kudo-dev/plugin-kudo": {
+      "git": {
+        "repo": "Kudo-Archi/plugin-kudo",
+        "v0": {
+          "version": "0.1.3",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@kudo-dev/plugin-kudo",
+        "v0": "0.1.3",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@mazzz/plugin-elizaos-compchembridge": {
+      "git": {
+        "repo": "Mazzz-zzz/plugin-elizaos-compchembridge",
+        "v0": {
+          "version": "0.1.8",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@mazzz/plugin-elizaos-compchembridge",
+        "v0": "0.1.8",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
         "v1": false
       }
     }
