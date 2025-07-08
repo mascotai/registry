@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-07-07T15:07:32.780Z",
+  "lastUpdatedAt": "2025-07-08T12:44:01.985Z",
   "registry": {
     "@elizaos/adapter-mongodb": {
       "git": {
@@ -955,14 +955,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.19",
+          "version": "1.0.20",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.0.19"
+        "v1": "1.0.20"
       },
       "supports": {
         "v0": true,
@@ -1351,14 +1351,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.10",
+          "version": "v1.0.11",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-discord",
         "v0": null,
-        "v1": "1.0.10"
+        "v1": "1.0.11"
       },
       "supports": {
         "v0": false,
@@ -2165,14 +2165,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.6",
+          "version": "v1.0.7",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-local-ai",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.5"
+        "v1": "1.0.7"
       },
       "supports": {
         "v0": true,
@@ -3177,14 +3177,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.19",
+          "version": "1.0.20",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.0.19"
+        "v1": "1.0.20"
       },
       "supports": {
         "v0": false,
@@ -3397,14 +3397,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.4",
-          "branch": "1.x"
+          "version": "v1.0.9",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-telegram",
         "v0": null,
-        "v1": "1.0.4"
+        "v1": "1.0.9"
       },
       "supports": {
         "v0": false,
@@ -3917,11 +3917,33 @@
         "v1": true
       }
     },
+    "@esscrypt/plugin-polkadot": {
+      "git": {
+        "repo": "Esscrypt/plugin-polkadot",
+        "v0": {
+          "version": "0.0.3",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.12",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@esscrypt/plugin-polkadot",
+        "v0": "0.0.3",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
     "@kudo-dev/plugin-kudo": {
       "git": {
         "repo": "Kudo-Archi/plugin-kudo",
         "v0": {
-          "version": "0.1.6",
+          "version": "0.1.14",
           "branch": null
         },
         "v1": {
@@ -3931,7 +3953,7 @@
       },
       "npm": {
         "repo": "@kudo-dev/plugin-kudo",
-        "v0": "0.1.6",
+        "v0": "0.1.14",
         "v1": null
       },
       "supports": {
