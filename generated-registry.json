@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-07-14T07:21:01.534Z",
+  "lastUpdatedAt": "2025-07-15T03:49:59.377Z",
   "registry": {
     "@bealers/plugin-mattermost": {
       "git": {
@@ -961,28 +961,6 @@
       },
       "npm": {
         "repo": "@elizaos/plugin-bnv-me-id",
-        "v0": null,
-        "v1": null
-      },
-      "supports": {
-        "v0": false,
-        "v1": false
-      }
-    },
-    "@elizaos/plugin-bonsai": {
-      "git": {
-        "repo": "onbonsai/elizaos-plugin-bonsai",
-        "v0": {
-          "version": null,
-          "branch": null
-        },
-        "v1": {
-          "version": null,
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "@elizaos/plugin-bonsai",
         "v0": null,
         "v1": null
       },
@@ -3155,14 +3133,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.3",
-          "branch": "1.x"
+          "version": "v1.2.1",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-redpill",
         "v0": null,
-        "v1": "1.0.3"
+        "v1": "1.2.1"
       },
       "supports": {
         "v0": false,
@@ -3771,14 +3749,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.2.1",
+          "version": "v1.2.16",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-twitter",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.2.1"
+        "v1": "1.2.16"
       },
       "supports": {
         "v0": true,
@@ -4201,6 +4179,28 @@
       "supports": {
         "v0": true,
         "v1": false
+      }
+    },
+    "@onbonsai/plugin-bonsai": {
+      "git": {
+        "repo": "onbonsai/plugin-bonsai",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "1.0.0",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@onbonsai/plugin-bonsai",
+        "v0": null,
+        "v1": "1.0.0"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
       }
     },
     "plugin-desearch": {
