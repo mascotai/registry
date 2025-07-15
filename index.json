@@ -47,7 +47,6 @@
     "@elizaos/plugin-bless": "github:blessnetwork/elizaos-bless-plugin",
     "@elizaos/plugin-bnb": "github:elizaos-plugins/plugin-bnb",
     "@elizaos/plugin-bnv-me-id": "github:brand-new-vision/plugin-bnv-me-id",
-    "@elizaos/plugin-bonsai": "github:onbonsai/elizaos-plugin-bonsai",
     "@elizaos/plugin-bootstrap": "github:elizaos-plugins/plugin-bootstrap",
     "@elizaos/plugin-browser": "github:elizaos-plugins/plugin-browser",
     "@elizaos/plugin-ccxt": "github:pranavjadhav1363/plugin-ccxt",
@@ -194,5 +193,6 @@
     "@esscrypt/plugin-polkadot": "github:Esscrypt/plugin-polkadot",
     "@kudo-dev/plugin-kudo": "github:Kudo-Archi/plugin-kudo",
     "@mazzz/plugin-elizaos-compchembridge": "github:Mazzz-zzz/plugin-elizaos-compchembridge",
+    "@onbonsai/plugin-bonsai": "github:onbonsai/plugin-bonsai",
     "plugin-desearch": "github:Desearch-ai/plugin-desearch"
 }
