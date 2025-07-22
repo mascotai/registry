@@ -3,7 +3,7 @@
     "": "classes.adapters/sql",
     "": "classes.clients/twitter, discord, telegram",
     "": "classes.default/bootstrap",
-    "@bealers/plugin-mattermost": "github:bealers/plugin-mattermost",
+        "@bealers/plugin-mattermost": "github:bealers/plugin-mattermost",
     "@elizaos/adapter-mongodb": "github:elizaos-plugins/adapter-mongodb",
     "@elizaos/adapter-pglite": "github:elizaos-plugins/adapter-pglite",
     "@elizaos/adapter-postgres": "github:elizaos-plugins/adapter-postgres",
@@ -199,5 +199,5 @@
     "@esscrypt/plugin-polkadot": "github:Esscrypt/plugin-polkadot",
     "@kudo-dev/plugin-kudo": "github:Kudo-Archi/plugin-kudo",
     "@mazzz/plugin-elizaos-compchembridge": "github:Mazzz-zzz/plugin-elizaos-compchembridge",
-    "@onbonsai/plugin-bonsai": "github:onbonsai/plugin-bonsai",
+    "@onbonsai/plugin-bonsai": "github:onbonsai/plugin-bonsai"
 }
