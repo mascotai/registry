@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-07-22T08:26:19.140Z",
+  "lastUpdatedAt": "2025-07-22T19:54:39.636Z",
   "registry": {
     "@bealers/plugin-mattermost": {
       "git": {
@@ -4101,14 +4101,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.1.8",
+          "version": "1.2.4",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-zapper",
         "v0": null,
-        "v1": "1.1.8"
+        "v1": "1.2.4"
       },
       "supports": {
         "v0": false,
@@ -4333,50 +4333,6 @@
       "supports": {
         "v0": false,
         "v1": true
-      }
-    },
-    "plugin-desearch": {
-      "git": {
-        "repo": "Desearch-ai/plugin-desearch",
-        "v0": {
-          "version": "0.1.4",
-          "branch": null
-        },
-        "v1": {
-          "version": null,
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "plugin-desearch",
-        "v0": "0.1.4",
-        "v1": null
-      },
-      "supports": {
-        "v0": true,
-        "v1": false
-      }
-    },
-    "plugin-coti": {
-      "git": {
-        "repo": "cuongpo/plugin-coti",
-        "v0": {
-          "version": "0.1.0",
-          "branch": null
-        },
-        "v1": {
-          "version": null,
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "plugin-coti",
-        "v0": "0.1.0",
-        "v1": null
-      },
-      "supports": {
-        "v0": true,
-        "v1": false
       }
     }
   }
